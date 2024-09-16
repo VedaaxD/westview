@@ -1,0 +1,303 @@
+Script started on 2024-08-05 15:32:12+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="29"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ touch ownerfile.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ chown newoner ownerfile.txt
+[?2004lchown: invalid user: ‘newoner’
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ chown newowner ownerfile.txt
+[?2004lchown: invalid user: ‘newowner’
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ `[Ksudo chown newowner ownerfile.txt
+[?2004l[sudo] password for ibab: 
+chown: invalid user: ‘newowner’
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sudo adduser [K
+[?2004lfatal: Only one or two names allowed.
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sudo useradd
+[?2004lUsage: useradd [options] LOGIN
+       useradd -D
+       useradd -D [options]
+
+Options:
+      --badname                 do not check for bad names
+  -b, --base-dir BASE_DIR       base directory for the home directory of the
+                                new account
+      --btrfs-subvolume-home    use BTRFS subvolume for home directory
+  -c, --comment COMMENT         GECOS field of the new account
+  -d, --home-dir HOME_DIR       home directory of the new account
+  -D, --defaults                print or change default useradd configuration
+  -e, --expiredate EXPIRE_DATE  expiration date of the new account
+  -f, --inactive INACTIVE       password inactivity period of the new account
+  -F, --add-subids-for-system   add entries to sub[ud]id even when adding a system user
+  -g, --gid GROUP               name or ID of the primary group of the new
+                                account
+  -G, --groups GROUPS           list of supplementary groups of the new
+                                account
+  -h, --help                    display this help message and exit
+  -k, --skel SKEL_DIR           use this alternative skeleton directory
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -l, --no-log-init             do not add the user to the lastlog and
+                                faillog databases
+  -m, --create-home             create the user's home directory
+  -M, --no-create-home          do not create the user's home directory
+  -N, --no-user-group           do not create a group with the same name as
+                                the user
+  -o, --non-unique              allow to create users with duplicate
+                                (non-unique) UID
+  -p, --password PASSWORD       encrypted password of the new account
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -s, --shell SHELL             login shell of the new account
+  -u, --uid UID                 user ID of the new account
+  -U, --user-group              create a group with the same name as the user
+  -Z, --selinux-user SEUSER     use a specific SEUSER for the SELinux user mapping
+      --extrausers              Use the extra users database
+
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sudo useradd newowner
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sudo chown[7m<pre>chown newowner ownerfile.txt</pre>[27m<pre>chown newowner ownerfile.txt</pre>[K[K[K[K[K[K[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[1P[1@ 
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ls -l
+[?2004ltotal 107992
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 09:39 a
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 09:48 abdb1.txt
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 09:48 abdb2.txt
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 09:48 abdb3.txt
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 09:50 akbdb1.txt
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 09:55 akdb1.txt
+drwxrwxr-x 2 ibab     ibab      4096 Aug  5 10:11 [0m[01;34maug1test[0m
+drwxrwxr-x 2 ibab     ibab      4096 Aug  5 10:13 [01;34maug1text[0m
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 09:44 bac2.txt
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 09:44 bac4.txt
+drwxrwxr-x 2 ibab     ibab      4096 Jul 30 18:59 [01;34mbackup[0m
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 09:39 bdb1.txt
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 09:39 bdb2.txt
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 09:39 bdb3.txt
+drwxrwxr-x 2 ibab     ibab      4096 Aug  5 09:58 [01;34mcode[0m
+drwxrwxr-x 2 ibab     ibab      4096 Aug  1 12:58 [01;34mcode_dir[0m
+-rw-rw-r-- 1 ibab     ibab         0 Jul 25 17:29 command
+drwxrwxr-x 3 ibab     ibab      4096 Aug  5 09:59 [01;34mdata[0m
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 15:27 datafile.txt
+drwxr-xr-x 2 ibab     ibab      4096 Aug  5 09:03 [01;34mDesktop[0m
+drwxrwxr-x 2 ibab     ibab      4096 Aug  1 12:57 [01;34mdir[0m
+drwxr-xr-x 2 ibab     ibab      4096 Jul 22 15:21 [01;34mDocuments[0m
+drwxr-xr-x 4 ibab     ibab      4096 Aug  1 14:11 [01;34mDownloads[0m
+-rw-rw-r-- 1 ibab     ibab      4096 Jul 31 10:56 exercise4.txt
+drwxrwxr-x 2 ibab     ibab      4096 Jul 30 19:25 [01;34mexercise_dir[0m
+lrwxrwxrwx 1 ibab     ibab        12 Aug  5 10:38 [40;31;01mex.txt[0m -> [40;31;01mexercise.txt[0m
+-rw-rw-r-- 1 ibab     ibab         0 Jul 29 15:59 file2.txt
+-rw-rw-r-- 1 ibab     ibab         0 Jul 29 15:59 file3.txt
+-rw-rw-r-- 1 ibab     ibab 108772160 Jul 16 04:27 [01;31mgoogle-chrome-stable_current_amd64.deb[0m
+-rw-rw-r-- 2 ibab     ibab         0 Aug  5 10:04 hl_one.txt
+drwxrwxr-x 5 ibab     ibab      4096 Aug  1 12:55 [01;34mhome[0m
+drwxrwxr-x 4 ibab     ibab      4096 Jul 29 14:01 [01;34mlab1[0m
+drwxrwxr-x 4 ibab     ibab      4096 Jul 31 09:05 [01;34mlab2[0m
+-rw-rw-r-- 1 ibab     ibab       294 Jul 30 19:25 lab2.txt
+drwxrwxr-x 3 ibab     ibab      4096 Aug  1 17:26 [01;34mLab3[0m
+drwxr-xr-x 2 ibab     ibab      4096 Jul 22 15:21 [01;34mMusic[0m
+-rw-rw-r-- 2 ibab     ibab         0 Aug  5 10:04 one.txt
+-rw-rw-r-- 1 newowner ibab         0 Aug  5 15:32 ownerfile.txt
+drwxr-xr-x 2 ibab     ibab      4096 Jul 22 15:21 [01;34mPictures[0m
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 15:27 program.sh
+dr--r--r-- 4 ibab     ibab      4096 Aug  1 15:01 [01;34mprojects[0m
+-rwxrwxr-- 1 ibab     ibab         0 Aug  5 15:27 [01;32mproject.txt[0m
+drwxr-xr-x 2 ibab     ibab      4096 Jul 22 15:21 [01;34mPublic[0m
+-rwxrwxr-x 1 ibab     ibab         0 Aug  5 15:26 [01;32mscript.sh[0m
+-rw-rw-r-- 1 ibab     ibab         0 Jul 29 17:22 secret.txt
+lrwxrwxrwx 1 ibab     ibab         8 Aug  5 10:57 [01;36msl_lab2.txt[0m -> lab2.txt
+lrwxrwxrwx 1 ibab     ibab         7 Aug  5 10:30 [01;36msl_one.txt[0m -> one.txt
+drwx------ 6 ibab     ibab      4096 Aug  2 12:00 [01;34msnap[0m
+drwxrwxr-x 2 ibab     ibab      4096 Jul 30 17:58 [01;34msource[0m
+drwxrwxr-x 2 ibab     ibab      4096 Jul 29 17:03 [01;34msourcefile1.txt[0m
+drwxr-xr-x 2 ibab     ibab      4096 Jul 22 15:21 [01;34mTemplates[0m
+drwxrwxr-x 3 ibab     ibab      4096 Jul 29 14:51 [01;34mtest-dir[0m
+-r--r--r-- 1 ibab     ibab         0 Aug  5 15:26 testfile.txt
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 10:06 two.txt
+-rw-rw-r-- 1 ibab     ibab         0 Aug  5 15:32 typescript
+-rw-rw-r-- 1 ibab     ibab   1597440 Aug  1 17:13 typescript_veda_lab3_ex1.txt
+-rw-rw-r-- 1 ibab     ibab      4070 Jul 29 14:52 typescript_vedavalli_lab2_ex1.txt
+-rw-rw-r-- 1 ibab     ibab      5754 Jul 30 19:01 typescript_vedavalli_lab2_ex2.txt
+-rw-rw-r-- 1 ibab     ibab      4417 Aug  5 13:58 typescript_vedavalli_lab4_ex1.txt
+-rw-rw-r-- 1 ibab     ibab     40917 Aug  5 14:45 typescript_vedavalli_lab4_ex2.txt
+-rw-rw-r-- 1 ibab     ibab      1546 Aug  5 15:03 typescript_vedavalli_lab4_ex3.txt
+-rw-rw-r-- 1 ibab     ibab      1249 Aug  5 15:07 typescript_vedavalli_lab4_ex4.txt
+-rw-rw-r-- 1 ibab     ibab     23207 Aug  5 15:31 typescript_vedavalli_lab4_ex5.txt
+drwxr-xr-x 2 ibab     ibab      4096 Jul 22 15:21 [01;34mVideos[0m
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ touch groupfile.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sudo groupadd newgroup
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ chown :newgrp[Koup groupfile.txt
+[?2004lchown: changing group of 'groupfile.txt': Operation not permitted
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ls[K[Ksudo chown:newgroup groupfile.txt
+[?2004lsudo: chown:newgroup: command not found
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sudo chown :newgroup groupfile.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ls -l
+[?2004ltotal 108000
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 a
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:48 abdb1.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:48 abdb2.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:48 abdb3.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:50 akbdb1.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:55 akdb1.txt
+drwxrwxr-x 2 ibab     ibab          4096 Aug  5 10:11 [0m[01;34maug1test[0m
+drwxrwxr-x 2 ibab     ibab          4096 Aug  5 10:13 [01;34maug1text[0m
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:44 bac2.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:44 bac4.txt
+drwxrwxr-x 2 ibab     ibab          4096 Jul 30 18:59 [01;34mbackup[0m
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 bdb1.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 bdb2.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 bdb3.txt
+drwxrwxr-x 2 ibab     ibab          4096 Aug  5 09:58 [01;34mcode[0m
+drwxrwxr-x 2 ibab     ibab          4096 Aug  1 12:58 [01;34mcode_dir[0m
+-rw-rw-r-- 1 ibab     ibab             0 Jul 25 17:29 command
+drwxrwxr-x 3 ibab     ibab          4096 Aug  5 09:59 [01;34mdata[0m
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 15:27 datafile.txt
+drwxr-xr-x 2 ibab     ibab          4096 Aug  5 09:03 [01;34mDesktop[0m
+drwxrwxr-x 2 ibab     ibab          4096 Aug  1 12:57 [01;34mdir[0m
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mDocuments[0m
+drwxr-xr-x 4 ibab     ibab          4096 Aug  1 14:11 [01;34mDownloads[0m
+-rw-rw-r-- 1 ibab     ibab          4096 Jul 31 10:56 exercise4.txt
+drwxrwxr-x 2 ibab     ibab          4096 Jul 30 19:25 [01;34mexercise_dir[0m
+lrwxrwxrwx 1 ibab     ibab            12 Aug  5 10:38 [40;31;01mex.txt[0m -> [40;31;01mexercise.txt[0m
+-rw-rw-r-- 1 ibab     ibab             0 Jul 29 15:59 file2.txt
+-rw-rw-r-- 1 ibab     ibab             0 Jul 29 15:59 file3.txt
+-rw-rw-r-- 1 ibab     ibab     108772160 Jul 16 04:27 [01;31mgoogle-chrome-stable_current_amd64.deb[0m
+-rw-rw-r-- 1 ibab     newgroup         0 Aug  5 15:45 groupfile.txt
+-rw-rw-r-- 2 ibab     ibab             0 Aug  5 10:04 hl_one.txt
+drwxrwxr-x 5 ibab     ibab          4096 Aug  1 12:55 [01;34mhome[0m
+drwxrwxr-x 4 ibab     ibab          4096 Jul 29 14:01 [01;34mlab1[0m
+drwxrwxr-x 4 ibab     ibab          4096 Jul 31 09:05 [01;34mlab2[0m
+-rw-rw-r-- 1 ibab     ibab           294 Jul 30 19:25 lab2.txt
+drwxrwxr-x 3 ibab     ibab          4096 Aug  1 17:26 [01;34mLab3[0m
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mMusic[0m
+-rw-rw-r-- 2 ibab     ibab             0 Aug  5 10:04 one.txt
+-rw-rw-r-- 1 newowner ibab             0 Aug  5 15:32 ownerfile.txt
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mPictures[0m
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 15:27 program.sh
+dr--r--r-- 4 ibab     ibab          4096 Aug  1 15:01 [01;34mprojects[0m
+-rwxrwxr-- 1 ibab     ibab             0 Aug  5 15:27 [01;32mproject.txt[0m
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mPublic[0m
+-rwxrwxr-x 1 ibab     ibab             0 Aug  5 15:26 [01;32mscript.sh[0m
+-rw-rw-r-- 1 ibab     ibab             0 Jul 29 17:22 secret.txt
+lrwxrwxrwx 1 ibab     ibab             8 Aug  5 10:57 [01;36msl_lab2.txt[0m -> lab2.txt
+lrwxrwxrwx 1 ibab     ibab             7 Aug  5 10:30 [01;36msl_one.txt[0m -> one.txt
+drwx------ 6 ibab     ibab          4096 Aug  2 12:00 [01;34msnap[0m
+drwxrwxr-x 2 ibab     ibab          4096 Jul 30 17:58 [01;34msource[0m
+drwxrwxr-x 2 ibab     ibab          4096 Jul 29 17:03 [01;34msourcefile1.txt[0m
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mTemplates[0m
+drwxrwxr-x 3 ibab     ibab          4096 Jul 29 14:51 [01;34mtest-dir[0m
+-r--r--r-- 1 ibab     ibab             0 Aug  5 15:26 testfile.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 10:06 two.txt
+-rw-rw-r-- 1 ibab     ibab          8192 Aug  5 15:45 typescript
+-rw-rw-r-- 1 ibab     ibab       1597440 Aug  1 17:13 typescript_veda_lab3_ex1.txt
+-rw-rw-r-- 1 ibab     ibab          4070 Jul 29 14:52 typescript_vedavalli_lab2_ex1.txt
+-rw-rw-r-- 1 ibab     ibab          5754 Jul 30 19:01 typescript_vedavalli_lab2_ex2.txt
+-rw-rw-r-- 1 ibab     ibab          4417 Aug  5 13:58 typescript_vedavalli_lab4_ex1.txt
+-rw-rw-r-- 1 ibab     ibab         40917 Aug  5 14:45 typescript_vedavalli_lab4_ex2.txt
+-rw-rw-r-- 1 ibab     ibab          1546 Aug  5 15:03 typescript_vedavalli_lab4_ex3.txt
+-rw-rw-r-- 1 ibab     ibab          1249 Aug  5 15:07 typescript_vedavalli_lab4_ex4.txt
+-rw-rw-r-- 1 ibab     ibab         23207 Aug  5 15:31 typescript_vedavalli_lab4_ex5.txt
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mVideos[0m
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ touch bothfile.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ chown newowner:newgroup bothfile.txt
+[?2004lchown: changing ownership of 'bothfile.txt': Operation not permitted
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sudo chown newowner:newgroup bothfile.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ls -l
+[?2004ltotal 108004
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 a
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:48 abdb1.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:48 abdb2.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:48 abdb3.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:50 akbdb1.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:55 akdb1.txt
+drwxrwxr-x 2 ibab     ibab          4096 Aug  5 10:11 [0m[01;34maug1test[0m
+drwxrwxr-x 2 ibab     ibab          4096 Aug  5 10:13 [01;34maug1text[0m
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:44 bac2.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:44 bac4.txt
+drwxrwxr-x 2 ibab     ibab          4096 Jul 30 18:59 [01;34mbackup[0m
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 bdb1.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 bdb2.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 bdb3.txt
+-rw-rw-r-- 1 newowner newgroup         0 Aug  5 15:56 bothfile.txt
+drwxrwxr-x 2 ibab     ibab          4096 Aug  5 09:58 [01;34mcode[0m
+drwxrwxr-x 2 ibab     ibab          4096 Aug  1 12:58 [01;34mcode_dir[0m
+-rw-rw-r-- 1 ibab     ibab             0 Jul 25 17:29 command
+drwxrwxr-x 3 ibab     ibab          4096 Aug  5 09:59 [01;34mdata[0m
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 15:27 datafile.txt
+drwxr-xr-x 2 ibab     ibab          4096 Aug  5 09:03 [01;34mDesktop[0m
+drwxrwxr-x 2 ibab     ibab          4096 Aug  1 12:57 [01;34mdir[0m
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mDocuments[0m
+drwxr-xr-x 4 ibab     ibab          4096 Aug  1 14:11 [01;34mDownloads[0m
+-rw-rw-r-- 1 ibab     ibab          4096 Jul 31 10:56 exercise4.txt
+drwxrwxr-x 2 ibab     ibab          4096 Jul 30 19:25 [01;34mexercise_dir[0m
+lrwxrwxrwx 1 ibab     ibab            12 Aug  5 10:38 [40;31;01mex.txt[0m -> [40;31;01mexercise.txt[0m
+-rw-rw-r-- 1 ibab     ibab             0 Jul 29 15:59 file2.txt
+-rw-rw-r-- 1 ibab     ibab             0 Jul 29 15:59 file3.txt
+-rw-rw-r-- 1 ibab     ibab     108772160 Jul 16 04:27 [01;31mgoogle-chrome-stable_current_amd64.deb[0m
+-rw-rw-r-- 1 ibab     newgroup         0 Aug  5 15:45 groupfile.txt
+-rw-rw-r-- 2 ibab     ibab             0 Aug  5 10:04 hl_one.txt
+drwxrwxr-x 5 ibab     ibab          4096 Aug  1 12:55 [01;34mhome[0m
+drwxrwxr-x 4 ibab     ibab          4096 Jul 29 14:01 [01;34mlab1[0m
+drwxrwxr-x 4 ibab     ibab          4096 Jul 31 09:05 [01;34mlab2[0m
+-rw-rw-r-- 1 ibab     ibab           294 Jul 30 19:25 lab2.txt
+drwxrwxr-x 3 ibab     ibab          4096 Aug  1 17:26 [01;34mLab3[0m
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mMusic[0m
+-rw-rw-r-- 2 ibab     ibab             0 Aug  5 10:04 one.txt
+-rw-rw-r-- 1 newowner ibab             0 Aug  5 15:32 ownerfile.txt
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mPictures[0m
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 15:27 program.sh
+dr--r--r-- 4 ibab     ibab          4096 Aug  1 15:01 [01;34mprojects[0m
+-rwxrwxr-- 1 ibab     ibab             0 Aug  5 15:27 [01;32mproject.txt[0m
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mPublic[0m
+-rwxrwxr-x 1 ibab     ibab             0 Aug  5 15:26 [01;32mscript.sh[0m
+-rw-rw-r-- 1 ibab     ibab             0 Jul 29 17:22 secret.txt
+lrwxrwxrwx 1 ibab     ibab             8 Aug  5 10:57 [01;36msl_lab2.txt[0m -> lab2.txt
+lrwxrwxrwx 1 ibab     ibab             7 Aug  5 10:30 [01;36msl_one.txt[0m -> one.txt
+drwx------ 6 ibab     ibab          4096 Aug  2 12:00 [01;34msnap[0m
+drwxrwxr-x 2 ibab     ibab          4096 Jul 30 17:58 [01;34msource[0m
+drwxrwxr-x 2 ibab     ibab          4096 Jul 29 17:03 [01;34msourcefile1.txt[0m
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mTemplates[0m
+drwxrwxr-x 3 ibab     ibab          4096 Jul 29 14:51 [01;34mtest-dir[0m
+-r--r--r-- 1 ibab     ibab             0 Aug  5 15:26 testfile.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 10:06 two.txt
+-rw-rw-r-- 1 ibab     ibab         12288 Aug  5 15:47 typescript
+-rw-rw-r-- 1 ibab     ibab       1597440 Aug  1 17:13 typescript_veda_lab3_ex1.txt
+-rw-rw-r-- 1 ibab     ibab          4070 Jul 29 14:52 typescript_vedavalli_lab2_ex1.txt
+-rw-rw-r-- 1 ibab     ibab          5754 Jul 30 19:01 typescript_vedavalli_lab2_ex2.txt
+-rw-rw-r-- 1 ibab     ibab          4417 Aug  5 13:58 typescript_vedavalli_lab4_ex1.txt
+-rw-rw-r-- 1 ibab     ibab         40917 Aug  5 14:45 typescript_vedavalli_lab4_ex2.txt
+-rw-rw-r-- 1 ibab     ibab          1546 Aug  5 15:03 typescript_vedavalli_lab4_ex3.txt
+-rw-rw-r-- 1 ibab     ibab          1249 Aug  5 15:07 typescript_vedavalli_lab4_ex4.txt
+-rw-rw-r-- 1 ibab     ibab         23207 Aug  5 15:31 typescript_vedavalli_lab4_ex5.txt
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mVideos[0m
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ mkdir mydir
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sampleaug5a.txt [1@t[1@o[1@u[1@c[1@h[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd Music/[K[K[K[K[K[KMYDIR
+[?2004lbash: cd: MYDIR: No such file or directory
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ C[Kcd mydir
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/mydir[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/mydir[00m$ touch aug5a.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/mydir[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/mydir[00m$ touch aug5b.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/mydir[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/mydir[00m$ ti[Kouch aug5c.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/mydir[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/mydir[00m$ cd
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ chown newowner [1@-[1P[C[1@ [1@-[1@R[C[C[C[C[C[C[C[C[1@ [1P[C[Cmydir
+[?2004lchown: changing ownership of 'mydir/aug5c.txt': Operation not permitted
+chown: changing ownership of 'mydir/aug5a.txt': Operation not permitted
+chown: changing ownership of 'mydir/aug5b.txt': Operation not permitted
+chown: changing ownership of 'mydir': Operation not permitted
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sudo chown -R newowner mydir
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ls -lR mydir
+[?2004lmydir:
+total 0
+-rw-rw-r-- 1 newowner ibab 0 Aug  5 15:58 aug5a.txt
+-rw-rw-r-- 1 newowner ibab 0 Aug  5 15:59 aug5b.txt
+-rw-rw-r-- 1 newowner ibab 0 Aug  5 15:59 aug5c.txt
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ mkdir groupdir
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cd groupdir
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/groupdir[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/groupdir[00m$ filea[K[K[K[K[Kaug5A.tt[K[K[K[K[K[K[K[Ktouch aug5A.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/groupdir[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/groupdir[00m$ touch aug5B.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/groupdir[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/groupdir[00m$ touch ug5C.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/groupdir[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/groupdir[00m$ cd
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sudo chown -R :newgroup groupdir
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ls -lR groupdir
+[?2004lgroupdir:
+total 0
+-rw-rw-r-- 1 ibab newgroup 0 Aug  5 16:01 aug5A.txt
+-rw-rw-r-- 1 ibab newgroup 0 Aug  5 16:02 aug5B.txt
+-rw-rw-r-- 1 ibab newgroup 0 Aug  5 16:02 ug5C.txt
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-05 16:03:02+05:30 [COMMAND_EXIT_CODE="0"]

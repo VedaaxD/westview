@@ -1,0 +1,15 @@
+Script started on 2024-08-05 14:48:15+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="27"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo PATH
+[?2004lPATH
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo $PATH
+[?2004l/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ expot[Ke[Krt PATH=$path[K[K[K[Kpath[K[K[K[KPATJH[K[KH:/new/directory/path
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo $PATH
+[?2004l/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/new/directory/path
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ export PATH+[K=new dire[K[K[K[K[K/directory/path:$PATH
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo $PATH
+[?2004lnew/directory/path:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/new/directory/path
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-05 15:03:57+05:30 [COMMAND_EXIT_CODE="0"]

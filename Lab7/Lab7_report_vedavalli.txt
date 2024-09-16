@@ -1,0 +1,11 @@
+Exercise 3: 
+a.What changes if you want to check for files and directories?
+  The command changes from -f or -d to -e.We can use [ -e $dir ] to check for both files and directories. 
+b. What happens if you give a directory name and provide the -f option?
+The directory name still displays as the file is also a directory.
+Exercise 5:
+a. What if the directory contains both files and directories ?
+   When using cp command it omits the directories and copies only the files.
+b. How would you copy only the files and not the directories?
+   I would use the command (only cp and not cp -r)  cp $file ${file}.bak for copying only the files.
+   

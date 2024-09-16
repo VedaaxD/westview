@@ -1,0 +1,41 @@
+Script started on 2024-08-08 14:56:59+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="120" LINES="27"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ vi numbers.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H"numbers.txt" [New File][2;1H[94m~                                                                                                                       [3;1H~                                                                                                                       [4;1H~                                                                                                                       [5;1H~                                                                                                                       [6;1H~                                                                                                                       [7;1H~                                                                                                                       [8;1H~                                                                                                                       [9;1H~                                                                                                                       [10;1H~                                                                                                                       [11;1H~                                                                                                                       [12;1H~                                                                                                                       [13;1H~                                                                                                                       [14;1H~                                                                                                                       [15;1H~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [1;1H[?25h[?4m[?2004l[>4;m[?25l[m1[?25h[?25l[2;1H[K[2;1H[?25h[?25l1[?25h[?25l0[?25h[?25l0[?25h[?25l[3;1H[K[3;1H[?25h[?25l9[?25h[?25l9[?25h[?25l9[?25h[?25l[4;1H[K[4;1H[?25h[?25l5[?25h[?25l6[?25h[?25l[5;1H[K[5;1H[?25h[?25l8[?25h[?25l4[?25h[?25l[6;1H[K[6;1H[?25h[?25l8[?25h[?25l8[?25h[?25l8[?25h[?25l[7;1H[K[7;1H[?25h[?25l3[?25h[?25l4[?25h[?25l6[?25h[?25l[8;1H[K[8;1H[?25h[?25l9[?25h[?25l3[?25h[?25l[9;1H[K[9;1H[?25h[?25l7[?25h[?25l6[?25h[?25l[10;1H[K[10;1H[?25h[?25l2[?25h[?25l5[?25h[?2004h[>4;2m[?4m[?25l[27;1H[K[27;1H:[?25hwq![?25l[?2004l[>4;m"numbers.txt" [New File] 10 lines, 33 bytes written[23;2t[23;1t
+[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sort numbers.txt
+[?2004l1
+100
+25
+346
+56
+76
+84
+888
+93
+999
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sort -n numbers.txt
+[?2004l1
+25
+56
+76
+84
+93
+100
+346
+888
+999
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sort numbers.txt > sorted_numbers.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat sorted_numbers.txt
+[?2004l1
+100
+25
+346
+56
+76
+84
+888
+93
+999
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-08 14:59:28+05:30 [COMMAND_EXIT_CODE="0"]

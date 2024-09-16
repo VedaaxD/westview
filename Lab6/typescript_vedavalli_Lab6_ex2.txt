@@ -1,0 +1,438 @@
+Script started on 2024-08-12 17:38:54+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="27"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cd backup1
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/backup1[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/backup1[00m$ [7mfind ~ -type f -name "*.txt" -size +1M -exec cp {} /home/user/backup/ \;[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind ~ -type f -name "*.txt" -size +1M -exec cp {} /home/user/backup/ \;[1P[1P[1P[1P[1@i[1@b[1@a[1@b[C[C[C[C[C[C[C[1@1[1@/
+[?2004lfind: ‘/home/ibab/projects/project1’: Permission denied
+find: ‘/home/ibab/projects/project2’: Permission denied
+cp: '/home/ibab/backup1/typescript_veda_lab3_ex1.txt' and '/home/ibab/backup1/typescript_veda_lab3_ex1.txt' are the same file
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/backup1[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/backup1[00m$ [7mfind . -type f -mtime -7 -size +10M -exec ls -l {} \;[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cfind . -type f -mtime -7 -size +10M -exec ls -l {} \;[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1@~[1@/
+[?2004lfind: ‘/home/ibab/projects/project1’: Permission denied
+find: ‘/home/ibab/projects/project2’: Permission denied
+-rw-rw-r-- 1 ibab ibab 9053072 Aug 12 10:21 /home/ibab/.cache/nvidia/GLCache/6b127eb637589fca3a603e84151bd16a/81b0650616c5b6ef/46acb4b8e00cc999.bin
+-rw------- 1 ibab ibab 1683784 Aug  7 10:00 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/3f6fafad79d8206b_0'
+-rw------- 1 ibab ibab 1639080 Aug  6 11:06 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/2b59819931838065_0'
+-rw------- 1 ibab ibab 1640552 Aug  6 09:44 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/a4f9195fcb2c0648_0'
+-rw------- 1 ibab ibab 1659936 Aug 10 21:34 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/87be83915803da00_0'
+-rw------- 1 ibab ibab 1928488 Aug 12 15:45 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/e8ecdfd4e78a17da_0'
+-rw------- 1 ibab ibab 1659880 Aug 11 19:16 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/190493a809a3fc7e_0'
+-rw------- 1 ibab ibab 2307944 Aug  5 17:42 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/34c83cfecbe94b15_0'
+-rw------- 1 ibab ibab 1623624 Aug  9 13:45 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/d4889c3be538b915_0'
+-rw------- 1 ibab ibab 1573768 Aug 10 09:46 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/9934b0f2a10401c8_0'
+-rw------- 1 ibab ibab 1460488 Aug  7 11:13 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/6e576cc40f9dc674_0'
+-rw------- 1 ibab ibab 1924400 Aug 10 18:20 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/24f182d8d465e5d8_0'
+-rw------- 1 ibab ibab 1633400 Aug  7 10:00 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/be42eb712c66373c_0'
+-rw------- 1 ibab ibab 1592944 Aug 11 18:45 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/be44134912237f32_0'
+-rw------- 1 ibab ibab 1686376 Aug 10 09:46 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/2ff67a8f21586312_0'
+-rw------- 1 ibab ibab 1456624 Aug  6 11:05 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/0734d3d4fade0832_0'
+-rw------- 1 ibab ibab 1446208 Aug  5 17:42 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/2313010100fbd682_0'
+-rw------- 1 ibab ibab 1170792 Aug  5 17:42 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/ae543500f4395ae6_0'
+-rw------- 1 ibab ibab 1683800 Aug  8 09:01 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/8e597db392aaf16e_0'
+-rw------- 1 ibab ibab 1573760 Aug  9 13:45 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/fc82811991ea9cc7_0'
+-rw------- 1 ibab ibab 1686376 Aug  9 13:45 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/3b653e76978ad8b9_0'
+-rw------- 1 ibab ibab 1463992 Aug 12 09:02 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/3fd1b9a79809083e_0'
+-rw------- 1 ibab ibab 1595896 Aug  8 08:58 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/b27567f12e564efb_0'
+-rw------- 1 ibab ibab 1928488 Aug 12 17:33 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/f00e849ea17f5080_0'
+-rw------- 1 ibab ibab 1686376 Aug 11 18:46 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/567656ee5c5a214d_0'
+-rw------- 1 ibab ibab 1444896 Aug  8 13:56 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/c00eff95c322f624_0'
+-rw------- 1 ibab ibab 1683784 Aug  6 11:07 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/3c0b8f091d0150a0_0'
+-rw------- 1 ibab ibab 1463992 Aug 11 19:16 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/fd9557a6928e097f_0'
+-rw------- 1 ibab ibab 1623760 Aug 12 09:41 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/aea150a278ab0060_0'
+-rw------- 1 ibab ibab 1596408 Aug  9 09:52 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/16c9cae8a54f950f_0'
+-rw------- 1 ibab ibab 1560184 Aug  6 11:07 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/3443c32a066590b9_0'
+-rw------- 1 ibab ibab 1463992 Aug 12 10:52 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/93e3fc2f1da05ef7_0'
+-rw------- 1 ibab ibab 1659000 Aug 10 08:59 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/7e930ce1681de6e6_0'
+-rw------- 1 ibab ibab 1595592 Aug  8 08:58 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/6224e67541abe8c8_0'
+-rw------- 1 ibab ibab 1463992 Aug 10 09:46 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/74bd8a2a5f73f3f4_0'
+-rw------- 1 ibab ibab 1930536 Aug 12 14:00 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/13232dce00b304b1_0'
+-rw------- 1 ibab ibab 1473456 Aug 12 09:40 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/924170a38c9b2ba1_0'
+-rw------- 1 ibab ibab 1462112 Aug  8 09:02 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/ac9c85a865a7c791_0'
+-rw------- 1 ibab ibab 1298968 Aug  6 11:07 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/5ac5aed59161f5fa_0'
+-rw------- 1 ibab ibab 1929456 Aug  9 13:45 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/65de5eb973a1ced0_0'
+-rw------- 1 ibab ibab 1635696 Aug  8 10:56 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/24081dc785cf2c5d_0'
+-rw------- 1 ibab ibab 1560192 Aug  7 10:00 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/b6b742de397f5e9a_0'
+-rw------- 1 ibab ibab 1573784 Aug 11 18:47 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/34f3713fc107ae72_0'
+-rw------- 1 ibab ibab 1924744 Aug 11 19:34 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/6b52ad14405b63e8_0'
+-rw------- 1 ibab ibab 1560192 Aug  8 09:01 '/home/ibab/.cache/google-chrome/Default/Code Cache/js/43bad4b067305f9b_0'
+-rw-r--r-- 1 ibab ibab 1294336 Aug 11 23:42 /home/ibab/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db
+-rw-r--r-- 1 ibab ibab 4947968 Aug 12 17:38 /home/ibab/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db
+-rw-r--r-- 1 ibab ibab 4330152 Aug 12 17:38 /home/ibab/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db-wal
+-rw-r--r-- 1 ibab ibab 1294336 Aug 11 23:42 /home/ibab/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db
+-rw-r--r-- 1 ibab ibab 1294336 Aug 11 23:42 /home/ibab/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db
+-rw-r--r-- 1 ibab ibab 1294336 Aug 11 23:42 /home/ibab/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db
+-rw-r--r-- 1 ibab ibab 4161232 Aug 12 17:38 /home/ibab/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-wal
+-rw-r--r-- 1 ibab ibab 2801664 Aug 11 23:42 /home/ibab/.cache/tracker3/files/meta.db
+-rw-r--r-- 1 ibab ibab 1376256 Aug 12 17:05 /home/ibab/.cache/tracker3/files/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db
+-rw-r--r-- 1 ibab ibab 1294336 Aug 12 16:29 /home/ibab/backup1/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Audio.db
+-rw------- 1 ibab ibab 1683784 Aug 12 16:29 /home/ibab/backup1/3f6fafad79d8206b_0
+-rw------- 1 ibab ibab 1639080 Aug 12 16:29 /home/ibab/backup1/2b59819931838065_0
+-rw------- 1 ibab ibab 4637165 Aug 12 16:29 /home/ibab/backup1/f831538a7b3a8751_1
+-rw------- 1 ibab ibab 1640552 Aug 12 16:29 /home/ibab/backup1/a4f9195fcb2c0648_0
+-rw-r--r-- 1 ibab ibab 4947968 Aug 12 16:29 /home/ibab/backup1/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db
+-rw------- 1 ibab ibab 1326567 Aug 12 16:29 /home/ibab/backup1/0297fbff4f2cf7f5_0
+-rw------- 1 ibab ibab 2816856 Aug 12 16:29 /home/ibab/backup1/eb2531a537ababb8_0
+-rw------- 1 ibab ibab 1091258 Aug 12 16:29 /home/ibab/backup1/d95018a4e47530ed_0
+-rw------- 1 ibab ibab 1659936 Aug 12 16:29 /home/ibab/backup1/87be83915803da00_0
+-rw------- 1 ibab ibab 1928488 Aug 12 16:29 /home/ibab/backup1/e8ecdfd4e78a17da_0
+-rw------- 1 ibab ibab 2372999 Aug 12 16:29 /home/ibab/backup1/648dc9e9dfecd24c_1
+-rw-r--r-- 1 ibab ibab 3905792 Aug 12 16:29 /home/ibab/backup1/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Documents.db-wal
+-rw------- 1 ibab ibab 1459584 Aug 12 16:29 /home/ibab/backup1/5e7cdd506036ffc5_0
+-rw------- 1 ibab ibab 3138823 Aug 12 16:29 /home/ibab/backup1/bddb8bffff70e949_1
+-rw------- 1 ibab ibab 1056768 Aug 12 16:29 /home/ibab/backup1/data_2
+-rw------- 1 ibab ibab 1659880 Aug 12 16:29 /home/ibab/backup1/190493a809a3fc7e_0
+-rw------- 1 ibab ibab 1118157 Aug 12 16:29 /home/ibab/backup1/e535aa0c3f24e8c3_0
+-rw------- 1 ibab ibab 1203072 Aug 12 16:29 /home/ibab/backup1/SharedStorage-wal
+-rw------- 1 ibab ibab 1554996 Aug 12 16:29 /home/ibab/backup1/28932cccbc2fbad2_0
+-rw------- 1 ibab ibab 74854892 Aug 12 16:29 /home/ibab/backup1/ts.bin
+-rw------- 1 ibab ibab 2037211 Aug 12 16:29 /home/ibab/backup1/be4e59a802dba45f_0
+-rw------- 1 ibab ibab 1553353 Aug 12 16:29 /home/ibab/backup1/54acadadff4a0229_0
+-rw------- 1 ibab ibab 1447320 Aug 12 16:29 /home/ibab/backup1/c09f8463943c6b29_0
+-rw------- 1 ibab ibab 1720018 Aug 12 16:29 /home/ibab/backup1/4b93a350a7023192_0
+-rw------- 1 ibab ibab 1448224 Aug 12 16:29 /home/ibab/backup1/9d4f46f6b117dbf2_0
+-rw------- 1 ibab ibab 1469348 Aug 12 16:29 /home/ibab/backup1/ff978fdf88cf98eb_0
+-rw------- 1 ibab ibab 2307944 Aug 12 16:29 /home/ibab/backup1/34c83cfecbe94b15_0
+-rw------- 1 ibab ibab 1623624 Aug 12 16:29 /home/ibab/backup1/d4889c3be538b915_0
+-rw-rw-r-- 1 ibab ibab 108772160 Aug 12 16:29 /home/ibab/backup1/google-chrome-stable_current_amd64.deb
+-rw------- 1 ibab ibab 2455153 Aug 12 16:29 /home/ibab/backup1/fa663fc64a2465db_1
+-rw------- 1 ibab ibab 1459680 Aug 12 16:29 /home/ibab/backup1/1053de346b726695_0
+-rw-r--r-- 1 ibab ibab 1294336 Aug 12 16:29 /home/ibab/backup1/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Software.db
+-rw------- 1 ibab ibab 2816877 Aug 12 16:29 /home/ibab/backup1/087b47c1ecc94ecb_0
+-rw------- 1 ibab ibab 4588181 Aug 12 16:29 /home/ibab/backup1/b5adf2be5fe2ef12_1
+-rw------- 1 ibab ibab 4600508 Aug 12 16:29 /home/ibab/backup1/20dcb1078de3825a_1
+-rw------- 1 ibab ibab 2467281 Aug 12 16:29 /home/ibab/backup1/a8ae1f41ae81f359_0
+-rw-rw-r-- 1 ibab ibab 3077392 Aug 12 16:29 /home/ibab/backup1/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-7
+-rw------- 1 ibab ibab 1573768 Aug 12 16:29 /home/ibab/backup1/9934b0f2a10401c8_0
+-rw------- 1 ibab ibab 1470680 Aug 12 16:29 /home/ibab/backup1/b424f88ad0b53950_0
+-rw------- 1 ibab ibab 1460488 Aug 12 16:29 /home/ibab/backup1/6e576cc40f9dc674_0
+-rw------- 1 ibab ibab 2810331 Aug 12 16:29 /home/ibab/backup1/87ee7c344b85d6fb_0
+-rw-r--r-- 1 ibab ibab 2850816 Aug 12 16:29 /home/ibab/backup1/3870112724rsegmnoittet-es.sqlite
+-rw------- 1 ibab ibab 1211772 Aug 12 16:29 /home/ibab/backup1/a6ead2358fefaba6_0
+-rw------- 1 ibab ibab 1553340 Aug 12 16:29 /home/ibab/backup1/d0c537a90bed172c_0
+-rw------- 1 ibab ibab 1213688 Aug 12 16:29 /home/ibab/backup1/44776c2a400b7923_0
+-rw------- 1 ibab ibab 14801682 Aug 12 16:29 /home/ibab/backup1/6c2f88c6405c6f83_1
+-rw------- 1 ibab ibab 3005331 Aug 12 16:29 /home/ibab/backup1/37e41ef20dcbb478_0
+-rw------- 1 ibab ibab 6534331 Aug 12 16:29 /home/ibab/backup1/fb7a046f34e422aa_0
+-rw------- 1 ibab ibab 2808722 Aug 12 16:29 /home/ibab/backup1/006aa8163221dce8_0
+-rw------- 1 ibab ibab 1559112 Aug 12 16:29 /home/ibab/backup1/f9054dc75942839e_0
+-rw------- 1 ibab ibab 1845552 Aug 12 16:29 /home/ibab/backup1/a91a3a7086340ce0_0
+-rw------- 1 ibab ibab 3156352 Aug 12 16:29 /home/ibab/backup1/c898a18db5569ae4_1
+-rw------- 1 ibab ibab 1924400 Aug 12 16:29 /home/ibab/backup1/24f182d8d465e5d8_0
+-rw------- 1 ibab ibab 6728199 Aug 12 16:29 /home/ibab/backup1/20dcb1078de3825a_0
+-rw------- 1 ibab ibab 2129491 Aug 12 16:29 /home/ibab/backup1/000125.ldb
+-rw------- 1 ibab ibab 1559112 Aug 12 16:29 /home/ibab/backup1/c388bb99461aeeed_0
+-rw------- 1 ibab ibab 1784584 Aug 12 16:29 /home/ibab/backup1/recognizer_convnext320_cyrl_latn_vi.tflite
+-rw------- 1 ibab ibab 3097129 Aug 12 16:29 /home/ibab/backup1/26895c83e76fba7f_0
+-rw------- 1 ibab ibab 1239404 Aug 12 16:29 /home/ibab/backup1/9ccf727fcbd5de73_0
+-rw------- 1 ibab ibab 1351559 Aug 12 16:29 /home/ibab/backup1/18
+-rw------- 1 ibab ibab 2330067 Aug 12 16:29 /home/ibab/backup1/000036.log
+-rw------- 1 ibab ibab 1926752 Aug 12 16:29 /home/ibab/backup1/ChromeExtMalware.store.32_13367656386996857
+-rw------- 1 ibab ibab 1633400 Aug 12 16:29 /home/ibab/backup1/be42eb712c66373c_0
+-rw------- 1 ibab ibab 1558312 Aug 12 16:29 /home/ibab/backup1/2d41cb3da5953119_0
+-rw------- 1 ibab ibab 2066191 Aug 12 16:29 /home/ibab/backup1/recognizer_convnext320_cyrl_lm.fst
+-rw------- 1 ibab ibab 1469348 Aug 12 16:29 /home/ibab/backup1/ad7d353e05c9e046_0
+-rw------- 1 ibab ibab 1262667 Aug 12 16:29 /home/ibab/backup1/d2907747aadcd662_1
+-rw------- 1 ibab ibab 1681752 Aug 12 16:29 /home/ibab/backup1/3647eee17ace18ad_0
+-rw------- 1 ibab ibab 1592944 Aug 12 16:29 /home/ibab/backup1/be44134912237f32_0
+-rw------- 1 ibab ibab 1214768 Aug 12 16:29 /home/ibab/backup1/95a7e2c826dd4c53_0
+-rw------- 1 ibab ibab 4058807 Aug 12 16:29 /home/ibab/backup1/08bd448b0bf37a77_0
+-rw------- 1 ibab ibab 1114805 Aug 12 16:29 /home/ibab/backup1/jamhcnnkihinmdlkakkaopbjbbcngflc_1.c52c62a7c50daf7d3f73ec16977cd4b0ea401710807d5dbe3850941dd1b73a70
+-rw------- 1 ibab ibab 1115016 Aug 12 16:29 /home/ibab/backup1/57630f5eac2203b0_0
+-rw------- 1 ibab ibab 2785579 Aug 12 16:29 /home/ibab/backup1/b9c32eeaa9522478_0
+-rw------- 1 ibab ibab 1719944 Aug 12 16:29 /home/ibab/backup1/f4c7398a4c792511_0
+-rw------- 1 ibab ibab 1686376 Aug 12 16:29 /home/ibab/backup1/2ff67a8f21586312_0
+-rw------- 1 ibab ibab 1741360 Aug 12 16:29 /home/ibab/backup1/recognizer_convnext320_latn.tflite
+-rw------- 1 ibab ibab 3239770 Aug 12 16:29 /home/ibab/backup1/54ab54230e3c158e_0
+-rw-rw-r-- 1 ibab ibab 1597440 Aug 12 17:39 /home/ibab/backup1/typescript_veda_lab3_ex1.txt
+-rw------- 1 ibab ibab 1470680 Aug 12 16:29 /home/ibab/backup1/71928ff4e468a41b_0
+-rw------- 1 ibab ibab 1941890 Aug 12 16:29 /home/ibab/backup1/000274.ldb
+-rw------- 1 ibab ibab 1723617 Aug 12 16:29 /home/ibab/backup1/c29d901259455326_1
+-rw------- 1 ibab ibab 1469897 Aug 12 16:29 /home/ibab/backup1/24876756ce0ed18e_0
+-rw------- 1 ibab ibab 2809425 Aug 12 16:29 /home/ibab/backup1/fdeca14d34a5edb5_0
+-rw------- 1 ibab ibab 1456624 Aug 12 16:29 /home/ibab/backup1/0734d3d4fade0832_0
+-rw------- 1 ibab ibab 1446208 Aug 12 16:29 /home/ibab/backup1/2313010100fbd682_0
+-rw------- 1 ibab ibab 8396800 Aug 12 16:29 /home/ibab/backup1/data_3
+-rw------- 1 ibab ibab 1208551 Aug 12 16:29 /home/ibab/backup1/77877814c4f96aff_0
+-rw------- 1 ibab ibab 1080895 Aug 12 16:29 /home/ibab/backup1/c898a18db5569ae4_0
+-rw------- 1 ibab ibab 22827564 Aug 12 16:29 /home/ibab/backup1/UrlSoceng.store.4_13367932715348081
+-rw------- 1 ibab ibab 63239936 Aug 12 16:29 /home/ibab/backup1/libchromescreenai.so
+-rw------- 1 ibab ibab 1405813 Aug 12 16:29 /home/ibab/backup1/ff07dde08310c84d_0
+-rw------- 1 ibab ibab 2792894 Aug 12 16:29 /home/ibab/backup1/484f29d48f2690fd_0
+-rw------- 1 ibab ibab 1326475 Aug 12 16:29 /home/ibab/backup1/b424f88ad0b53950_1
+-rw------- 1 ibab ibab 2810310 Aug 12 16:29 /home/ibab/backup1/ab4e72b3829bb058_0
+-rw------- 1 ibab ibab 2792873 Aug 12 16:29 /home/ibab/backup1/94d5b28d50679ab3_0
+-rw------- 1 ibab ibab 4585954 Aug 12 16:29 /home/ibab/backup1/ts_spm.model
+-rw------- 1 ibab ibab 1170792 Aug 12 16:29 /home/ibab/backup1/ae543500f4395ae6_0
+-rw------- 1 ibab ibab 2402323 Aug 12 16:29 /home/ibab/backup1/c11b5cfdba95f886_0
+-rw------- 1 ibab ibab 2407834 Aug 12 16:29 /home/ibab/backup1/ba763069a789625b_1
+-rw------- 1 ibab ibab 1470667 Aug 12 16:29 /home/ibab/backup1/18c33f5b89c1ee87_0
+-rw------- 1 ibab ibab 1818375 Aug 12 16:29 /home/ibab/backup1/3a16f6eabacdc669_1
+-rw-rw-r-- 1 ibab ibab 1059623 Aug 12 16:29 /home/ibab/backup1/0050f7c710da549e.bin
+-rw------- 1 ibab ibab 1683800 Aug 12 16:29 /home/ibab/backup1/8e597db392aaf16e_0
+-rw-rw-r-- 1 ibab ibab 1059623 Aug 12 16:29 /home/ibab/backup1/4427d8ea88bc4c17.bin
+-rw------- 1 ibab ibab 1573760 Aug 12 16:29 /home/ibab/backup1/fc82811991ea9cc7_0
+-rw-rw-r-- 1 ibab ibab 1058968 Aug 12 16:29 /home/ibab/backup1/04f3ee7fb485cfea.bin
+-rw------- 1 ibab ibab 5033132 Aug 12 16:29 /home/ibab/backup1/b6314d4d60886714_0
+-rw------- 1 ibab ibab 2112224 Aug 12 16:29 /home/ibab/backup1/recognizer_convnext320_deva_lm.fst
+-rw------- 1 ibab ibab 1469362 Aug 12 16:29 /home/ibab/backup1/c03a2ab8ac3bbdec_0
+-rw-r--r-- 1 ibab ibab 1294336 Aug 12 16:29 /home/ibab/backup1/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Pictures.db
+-rw------- 1 ibab ibab 2792891 Aug 12 16:29 /home/ibab/backup1/f199a5f7379b788b_0
+-rw------- 1 ibab ibab 1398582 Aug 12 16:29 /home/ibab/backup1/0267e87062ff71a5_0
+-rw------- 1 ibab ibab 1076572 Aug 12 16:29 /home/ibab/backup1/UrlMalBin.store.4_13367932715559158
+-rw------- 1 ibab ibab 1977680 Aug 12 16:29 /home/ibab/backup1/recognizer_convnext320_cl605667156_kore.tflite
+-rw------- 1 ibab ibab 1686376 Aug 12 16:29 /home/ibab/backup1/3b653e76978ad8b9_0
+-rw------- 1 ibab ibab 1463992 Aug 12 16:29 /home/ibab/backup1/3fd1b9a79809083e_0
+-rw------- 1 ibab ibab 2365579 Aug 12 16:29 /home/ibab/backup1/000070.log
+-rw------- 1 ibab ibab 2283833 Aug 12 16:29 /home/ibab/backup1/recognizer_convnext320_cl606649635_arab_lm.fst
+-rw------- 1 ibab ibab 1177192 Aug 12 16:29 /home/ibab/backup1/660042aec11d9bd7_0
+-rw------- 1 ibab ibab 2767712 Aug 12 16:29 /home/ibab/backup1/9279a43144a2ec8e_1
+-rw------- 1 ibab ibab 2454103 Aug 12 16:29 /home/ibab/backup1/353b678a8fcd2c63_0
+-rw------- 1 ibab ibab 1753792 Aug 12 16:29 /home/ibab/backup1/recognizer_convnext320_cl606649635_arab.tflite
+-rw------- 1 ibab ibab 4204301 Aug 12 16:29 /home/ibab/backup1/f1292d42460c103b_0
+-rw------- 1 ibab ibab 1712410 Aug 12 16:29 /home/ibab/backup1/d0c537a90bed172c_1
+-rw------- 1 ibab ibab 2810328 Aug 12 16:29 /home/ibab/backup1/d4c16f2d4bd6a3ee_0
+-rw------- 1 ibab ibab 2121596 Aug 12 16:29 /home/ibab/backup1/000121.ldb
+-rw------- 1 ibab ibab 1326404 Aug 12 16:29 /home/ibab/backup1/18c33f5b89c1ee87_1
+-rw-r--r-- 1 ibab ibab 1941976 Aug 12 16:29 /home/ibab/backup1/scriptCache-child-current.bin
+-rw------- 1 ibab ibab 1356784 Aug 12 16:29 /home/ibab/backup1/0bbe8b8e23ccf864_0
+-rw------- 1 ibab ibab 1818591 Aug 12 16:29 /home/ibab/backup1/9d8eec9825605a39_1
+-rw------- 1 ibab ibab 1720026 Aug 12 16:29 /home/ibab/backup1/6b1c92e6784f538f_0
+-rw------- 1 ibab ibab 1595896 Aug 12 16:29 /home/ibab/backup1/b27567f12e564efb_0
+-rw-r--r-- 1 ibab ibab 1294336 Aug 12 16:29 /home/ibab/backup1/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23Video.db
+-rw------- 1 ibab ibab 2418771 Aug 12 16:29 /home/ibab/backup1/208227c4fffa17f3_1
+-rw-r--r-- 1 ibab ibab 5242880 Aug 12 16:29 /home/ibab/backup1/places.sqlite
+-rw------- 1 ibab ibab 2229136 Aug 12 16:29 /home/ibab/backup1/2f5b03284cde0a5f_0
+-rw-r--r-- 1 ibab ibab 4124152 Aug 12 16:29 /home/ibab/backup1/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db-wal
+-rw------- 1 ibab ibab 1723594 Aug 12 16:29 /home/ibab/backup1/b602b9f208992e2f_1
+-rw-r--r-- 1 ibab ibab 8800540 Aug 12 16:29 /home/ibab/backup1/scriptCache-current.bin
+-rw-r--r-- 1 ibab ibab 2602457 Aug 12 16:29 /home/ibab/backup1/startupCache.8.little
+-rw------- 1 ibab ibab 1682920 Aug 12 16:29 /home/ibab/backup1/0d1a12a8d7b0ed0e_0
+-rw------- 1 ibab ibab 1738612 Aug 12 16:29 /home/ibab/backup1/472fddd20dbbd5fe_0
+-rw------- 1 ibab ibab 1686376 Aug 12 16:29 /home/ibab/backup1/567656ee5c5a214d_0
+-rw------- 1 ibab ibab 1223313 Aug 12 16:29 /home/ibab/backup1/4feadcfd2b0aafcb_1
+-rw------- 1 ibab ibab 1075648 Aug 12 16:29 /home/ibab/backup1/bddb8bffff70e949_0
+-rw-rw-r-- 1 ibab ibab 1463781 Aug 12 16:29 /home/ibab/backup1/google-trackwhite-digest256.vlpset
+-rw------- 1 ibab ibab 1682928 Aug 12 16:29 /home/ibab/backup1/131808d11949a0ce_0
+-rw------- 1 ibab ibab 2416463 Aug 12 16:29 /home/ibab/backup1/13f540b56b83d77c_0
+-rw------- 1 ibab ibab 3239794 Aug 12 16:29 /home/ibab/backup1/41dece36a35d3bb1_0
+-rw------- 1 ibab ibab 1444896 Aug 12 16:29 /home/ibab/backup1/c00eff95c322f624_0
+-rw------- 1 ibab ibab 5327195 Aug 12 16:29 /home/ibab/backup1/obedbbhbpmojnkanicioggnmelmoomoc_1.2afd63a45569ebbc0ec98fb55b132876cc71870788e20a6009af687c40ad8d6c
+-rw------- 1 ibab ibab 2240360 Aug 12 16:29 /home/ibab/backup1/1a0fd8d1c90367bd_0
+-rw-rw-r-- 1 ibab ibab 1059623 Aug 12 16:29 /home/ibab/backup1/ad7acbc0f4c35c71.bin
+-rw------- 1 ibab ibab 2123555 Aug 12 16:29 /home/ibab/backup1/000118.ldb
+-rw------- 1 ibab ibab 2135008 Aug 12 16:29 /home/ibab/backup1/recognizer_convnext320_cl605667156_kore_lm.fst
+-rw------- 1 ibab ibab 1683784 Aug 12 16:29 /home/ibab/backup1/3c0b8f091d0150a0_0
+-rw-rw-r-- 1 ibab ibab 17824956 Aug 12 16:28 '/home/ibab/backup1/richard blum.pdf'
+-rw------- 1 ibab ibab 4459087 Aug 12 16:29 /home/ibab/backup1/3b2eef41dc1d8ed7_0
+-rw------- 1 ibab ibab 2119465 Aug 12 16:29 /home/ibab/backup1/000123.ldb
+-rw------- 1 ibab ibab 2886204 Aug 12 16:29 /home/ibab/backup1/000066.ldb
+-rw------- 1 ibab ibab 1463992 Aug 12 16:29 /home/ibab/backup1/fd9557a6928e097f_0
+-rw------- 1 ibab ibab 2908150 Aug 12 16:29 /home/ibab/backup1/000065.log
+-rw------- 1 ibab ibab 1352899 Aug 12 16:29 /home/ibab/backup1/3
+-rw------- 1 ibab ibab 1084767 Aug 12 16:29 /home/ibab/backup1/a517084405a46f06_0
+-rw------- 1 ibab ibab 1921216 Aug 12 16:29 /home/ibab/backup1/64e87c8f5f26d7a2_0
+-rw-r--r-- 1 ibab ibab 1310728 Aug 12 16:29 /home/ibab/backup1/index
+-rw------- 1 ibab ibab 1623760 Aug 12 16:29 /home/ibab/backup1/aea150a278ab0060_0
+-rw------- 1 ibab ibab 2190600 Aug 12 16:29 /home/ibab/backup1/f8a10122e46195dd_0
+-rw------- 1 ibab ibab 1596408 Aug 12 16:29 /home/ibab/backup1/16c9cae8a54f950f_0
+-rw------- 1 ibab ibab 1816111 Aug 12 16:29 /home/ibab/backup1/6af908dc2323ceb9_1
+-rw------- 1 ibab ibab 1080508 Aug 12 16:29 /home/ibab/backup1/1c0509009f1e5a7d_0
+-rw------- 1 ibab ibab 2404466 Aug 12 16:29 /home/ibab/backup1/a91a3a7086340ce0_1
+-rw------- 1 ibab ibab 6764853 Aug 12 16:29 /home/ibab/backup1/f831538a7b3a8751_0
+-rw------- 1 ibab ibab 1404163 Aug 12 16:29 /home/ibab/backup1/648dc9e9dfecd24c_0
+-rw-rw-r-- 1 ibab ibab 1061034 Aug 12 16:29 /home/ibab/backup1/e375a0781457d1be.bin
+-rw------- 1 ibab ibab 40219791 Aug 12 16:29 /home/ibab/backup1/mfhmdacoffpmifoibamicehhklffanao_1.6e89a1e09d19967ec346549a5151722b93c63e1a469acbc66f973950a6e09726
+-rw-r--r-- 1 ibab ibab 9714964 Aug 12 16:29 /home/ibab/backup1/scriptCache.bin
+-rw------- 1 ibab ibab 1921504 Aug 12 16:29 /home/ibab/backup1/b407da3b6f85e9bb_0
+-rw------- 1 ibab ibab 3723753 Aug 12 16:29 /home/ibab/backup1/0297fbff4f2cf7f5_1
+-rw------- 1 ibab ibab 1560184 Aug 12 16:29 /home/ibab/backup1/3443c32a066590b9_0
+-rw------- 1 ibab ibab 2816874 Aug 12 16:29 /home/ibab/backup1/1236a2b8cf48210e_0
+-rw------- 1 ibab ibab 1463992 Aug 12 16:29 /home/ibab/backup1/93e3fc2f1da05ef7_0
+-rw------- 1 ibab ibab 1470667 Aug 12 16:29 /home/ibab/backup1/251f15088527c56e_0
+-rw------- 1 ibab ibab 1659000 Aug 12 16:29 /home/ibab/backup1/7e930ce1681de6e6_0
+-rw------- 1 ibab ibab 2260992 Aug 12 16:29 /home/ibab/backup1/History
+-rw------- 1 ibab ibab 1560783 Aug 12 16:29 /home/ibab/backup1/b602b9f208992e2f_0
+-rw------- 1 ibab ibab 1891580 Aug 12 16:29 /home/ibab/backup1/208227c4fffa17f3_0
+-rw-r--r-- 1 ibab ibab 1941976 Aug 12 16:29 /home/ibab/backup1/scriptCache-child.bin
+-rw------- 1 ibab ibab 1595592 Aug 12 16:29 /home/ibab/backup1/6224e67541abe8c8_0
+-rw------- 1 ibab ibab 1240476 Aug 12 16:29 /home/ibab/backup1/8a736df324ef49fe_0
+-rw------- 1 ibab ibab 2146688 Aug 12 16:29 /home/ibab/backup1/recognizer_convnext320_beng_deva.tflite
+-rw------- 1 ibab ibab 1435464 Aug 12 16:29 /home/ibab/backup1/247b3073-d5e4-cedc-1a18-683c02399d46.dmp
+-rw------- 1 ibab ibab 1637664 Aug 12 16:29 /home/ibab/backup1/2806ee9f8c042975_0
+-rw------- 1 ibab ibab 1637200 Aug 12 16:29 /home/ibab/backup1/4f32af964485e899_0
+-rw-rw-r-- 1 ibab ibab 3446992 Aug 12 16:29 /home/ibab/backup1/0bd3dc0958fa2205aaaa8ebb13e2872b-le64.cache-9
+-rw-rw-r-- 1 ibab ibab 1059623 Aug 12 16:29 /home/ibab/backup1/edd3ede78a386ef2.bin
+-rw------- 1 ibab ibab 1091434 Aug 12 16:29 /home/ibab/backup1/2cf362d8588d67b0_0
+-rw------- 1 ibab ibab 1463992 Aug 12 16:29 /home/ibab/backup1/74bd8a2a5f73f3f4_0
+-rw------- 1 ibab ibab 2124941 Aug 12 16:29 /home/ibab/backup1/000120.ldb
+-rw------- 1 ibab ibab 1930536 Aug 12 16:29 /home/ibab/backup1/13232dce00b304b1_0
+-rw------- 1 ibab ibab 1473456 Aug 12 16:29 /home/ibab/backup1/924170a38c9b2ba1_0
+-rw------- 1 ibab ibab 1462112 Aug 12 16:29 /home/ibab/backup1/ac9c85a865a7c791_0
+-rw------- 1 ibab ibab 4254382 Aug 12 16:29 /home/ibab/backup1/62883dd79260504e_0
+-rw------- 1 ibab ibab 7887284 Aug 12 16:29 /home/ibab/backup1/cr_en-us_500000_index.bin
+-rw------- 1 ibab ibab 1459584 Aug 12 16:29 /home/ibab/backup1/2ef00f81618b94c0_0
+-rw------- 1 ibab ibab 1814974 Aug 12 16:29 /home/ibab/backup1/c8ef11c3ac98acff_1
+-rw------- 1 ibab ibab 3006048 Aug 12 16:29 /home/ibab/backup1/6e05070820f17f7b_0
+-rw------- 1 ibab ibab 1152052 Aug 12 16:29 /home/ibab/backup1/762e8732c3680ed2_0
+-rw------- 1 ibab ibab 2444960 Aug 12 16:29 /home/ibab/backup1/recognizer_convnext320_hani_jpan.tflite
+-rw------- 1 ibab ibab 2123088 Aug 12 16:29 /home/ibab/backup1/000124.ldb
+-rw------- 1 ibab ibab 1560796 Aug 12 16:29 /home/ibab/backup1/c29d901259455326_0
+-rw------- 1 ibab ibab 2938651 Aug 12 16:29 /home/ibab/backup1/1b8b2d7319309453_0
+-rw------- 1 ibab ibab 1225755 Aug 12 16:29 /home/ibab/backup1/4feadcfd2b0aafcb_0
+-rw------- 1 ibab ibab 1353834 Aug 12 16:29 /home/ibab/backup1/42
+-rw------- 1 ibab ibab 1091443 Aug 12 16:29 /home/ibab/backup1/8d0679736398c5e2_0
+-rw------- 1 ibab ibab 1354561 Aug 12 16:29 /home/ibab/backup1/57
+-rw------- 1 ibab ibab 1326428 Aug 12 16:29 /home/ibab/backup1/251f15088527c56e_1
+-rw------- 1 ibab ibab 1350288 Aug 12 16:29 /home/ibab/backup1/2d
+-rw------- 1 ibab ibab 3452826 Aug 12 16:29 /home/ibab/backup1/visual_model_desktop.tflite
+-rw------- 1 ibab ibab 1255075 Aug 12 16:29 /home/ibab/backup1/9ccf727fcbd5de73_1
+-rw-rw-r-- 1 ibab ibab 11929226 Aug 12 16:29 /home/ibab/backup1/goog-phish-proto.vlpset
+-rw------- 1 ibab ibab 2737464 Aug 12 16:29 /home/ibab/backup1/model.tflite
+-rw------- 1 ibab ibab 1298968 Aug 12 16:29 /home/ibab/backup1/5ac5aed59161f5fa_0
+-rw-rw-r-- 1 ibab ibab 1061034 Aug 12 16:29 /home/ibab/backup1/24decafb900c1f8f.bin
+-rw------- 1 ibab ibab 1929456 Aug 12 16:29 /home/ibab/backup1/65de5eb973a1ced0_0
+-rw------- 1 ibab ibab 4070073 Aug 12 16:29 /home/ibab/backup1/d07f9949f9823676_0
+-rw------- 1 ibab ibab 4194304 Aug 12 16:29 /home/ibab/backup1/BrowserMetrics-spare.pma
+-rw------- 1 ibab ibab 2628987 Aug 12 16:29 /home/ibab/backup1/1435d79c11c41d14_0
+-rw------- 1 ibab ibab 1817414 Aug 12 16:29 /home/ibab/backup1/f297110ad2a279ed_1
+-rw------- 1 ibab ibab 2112652 Aug 12 16:29 /home/ibab/backup1/000140.ldb
+-rw-rw-r-- 1 ibab ibab 108772160 Aug 12 16:28 '/home/ibab/backup1/google-chrome-stable_current_amd64(1).deb'
+-rw------- 1 ibab ibab 2375960 Aug 12 16:29 /home/ibab/backup1/0267e87062ff71a5_1
+-rw------- 1 ibab ibab 8527379 Aug 12 16:29 /home/ibab/backup1/6c2f88c6405c6f83_0
+-rw------- 1 ibab ibab 2120182 Aug 12 16:29 /home/ibab/backup1/000119.ldb
+-rw-r--r-- 1 ibab ibab 5242880 Aug 12 16:29 /home/ibab/backup1/favicons.sqlite
+-rw------- 1 ibab ibab 1635696 Aug 12 16:29 /home/ibab/backup1/24081dc785cf2c5d_0
+-rw------- 1 ibab ibab 1560192 Aug 12 16:29 /home/ibab/backup1/b6b742de397f5e9a_0
+-rw-r--r-- 1 ibab ibab 2801664 Aug 12 16:29 /home/ibab/backup1/meta.db
+-rw------- 1 ibab ibab 2379999 Aug 12 16:29 /home/ibab/backup1/ff07dde08310c84d_1
+-rw------- 1 ibab ibab 1849033 Aug 12 16:29 /home/ibab/backup1/ba763069a789625b_0
+-rw------- 1 ibab ibab 6652376 Aug 12 16:29 /home/ibab/backup1/b5adf2be5fe2ef12_0
+-rw-rw-r-- 1 ibab ibab 1060014 Aug 12 16:29 /home/ibab/backup1/9d46cf0c77cd6d92.bin
+-rw------- 1 ibab ibab 1087599 Aug 12 16:29 /home/ibab/backup1/aa14b6c69ee603d8_0
+-rw-r--r-- 1 ibab ibab 1376256 Aug 12 16:29 /home/ibab/backup1/http%3A%2F%2Ftracker.api.gnome.org%2Fontology%2Fv3%2Ftracker%23FileSystem.db
+-rw-rw-r-- 1 ibab ibab 9053072 Aug 12 16:29 /home/ibab/backup1/46acb4b8e00cc999.bin
+-rw------- 1 ibab ibab 1573784 Aug 12 16:29 /home/ibab/backup1/34f3713fc107ae72_0
+-rw------- 1 ibab ibab 5164033 Aug 12 16:29 /home/ibab/backup1/c11b5cfdba95f886_1
+-rw------- 1 ibab ibab 1924744 Aug 12 16:29 /home/ibab/backup1/6b52ad14405b63e8_0
+-rw------- 1 ibab ibab 1560192 Aug 12 16:29 /home/ibab/backup1/43bad4b067305f9b_0
+-rw------- 1 ibab ibab 1256202 Aug 12 16:29 /home/ibab/backup1/d2907747aadcd662_0
+-rw-rw-r-- 1 ibab ibab 1597440 Aug 12 16:24 /home/ibab/backup/typescript_veda_lab3_ex1.txt
+-rw------- 1 ibab ibab 1926752 Aug  9 11:23 '/home/ibab/.config/google-chrome/Safe Browsing/ChromeExtMalware.store.32_13367656386996857'
+-rw------- 1 ibab ibab 22828808 Aug 12 17:38 '/home/ibab/.config/google-chrome/Safe Browsing/UrlSoceng.store.4_13367938100583559'
+-rw------- 1 ibab ibab 1076624 Aug 12 17:38 '/home/ibab/.config/google-chrome/Safe Browsing/UrlMalBin.store.4_13367938100795970'
+-rw------- 1 ibab ibab 5327195 Aug 10 15:53 /home/ibab/.config/google-chrome/component_crx_cache/obedbbhbpmojnkanicioggnmelmoomoc_1.2afd63a45569ebbc0ec98fb55b132876cc71870788e20a6009af687c40ad8d6c
+-rw------- 1 ibab ibab 3452826 Aug  6 09:44 /home/ibab/.config/google-chrome/optimization_guide_model_store/25/E6DC4029A1E4B4C1/CE63863D9A53B723/visual_model_desktop.tflite
+-rw------- 1 ibab ibab 7887284 Aug 10 15:53 /home/ibab/.config/google-chrome/OnDeviceHeadSuggestModel/20240801.659754589.14/cr_en-us_500000_index.bin
+-rw------- 1 ibab ibab 1203072 Aug 12 10:19 /home/ibab/.config/google-chrome/Default/SharedStorage-wal
+-rw------- 1 ibab ibab 2467281 Aug 10 09:48 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/7354b7f9-9b63-4cb9-9a50-5433f19239db/a8ae1f41ae81f359_0'
+-rw------- 1 ibab ibab 14801682 Aug 10 09:48 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/7354b7f9-9b63-4cb9-9a50-5433f19239db/6c2f88c6405c6f83_1'
+-rw------- 1 ibab ibab 2402323 Aug 10 09:48 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/7354b7f9-9b63-4cb9-9a50-5433f19239db/c11b5cfdba95f886_0'
+-rw------- 1 ibab ibab 8527379 Aug 10 09:48 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/7354b7f9-9b63-4cb9-9a50-5433f19239db/6c2f88c6405c6f83_0'
+-rw------- 1 ibab ibab 5164033 Aug 10 09:48 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/379f1cbab5b08b6fc9e08681e42d8be311441c88/7354b7f9-9b63-4cb9-9a50-5433f19239db/c11b5cfdba95f886_1'
+-rw------- 1 ibab ibab 1470680 Aug  8 11:15 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/b424f88ad0b53950_0'
+-rw------- 1 ibab ibab 1262667 Aug 11 23:29 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/d2907747aadcd662_1'
+-rw------- 1 ibab ibab 1470680 Aug  8 13:56 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/71928ff4e468a41b_0'
+-rw------- 1 ibab ibab 1723617 Aug  8 13:56 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/c29d901259455326_1'
+-rw------- 1 ibab ibab 1326475 Aug 12 09:40 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/b424f88ad0b53950_1'
+-rw------- 1 ibab ibab 1470667 Aug 12 13:59 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/18c33f5b89c1ee87_0'
+-rw------- 1 ibab ibab 1398582 Aug  7 10:10 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/0267e87062ff71a5_0'
+-rw------- 1 ibab ibab 1326404 Aug 12 16:04 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/18c33f5b89c1ee87_1'
+-rw------- 1 ibab ibab 2418771 Aug  8 11:15 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/208227c4fffa17f3_1'
+-rw------- 1 ibab ibab 1723594 Aug 11 23:29 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/b602b9f208992e2f_1'
+-rw------- 1 ibab ibab 1223313 Aug  8 13:56 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/4feadcfd2b0aafcb_1'
+-rw------- 1 ibab ibab 1470667 Aug 10 10:02 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/251f15088527c56e_0'
+-rw------- 1 ibab ibab 1560783 Aug 10 10:02 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/b602b9f208992e2f_0'
+-rw------- 1 ibab ibab 1891580 Aug  7 10:10 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/208227c4fffa17f3_0'
+-rw------- 1 ibab ibab 1560796 Aug  8 11:15 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/c29d901259455326_0'
+-rw------- 1 ibab ibab 1225755 Aug  8 11:15 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/4feadcfd2b0aafcb_0'
+-rw------- 1 ibab ibab 1326428 Aug 11 23:29 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/251f15088527c56e_1'
+-rw------- 1 ibab ibab 2375960 Aug  8 11:15 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/0267e87062ff71a5_1'
+-rw------- 1 ibab ibab 1256202 Aug 10 10:02 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/efbad944-82d8-422c-9425-e3bdb4ebec71/d2907747aadcd662_0'
+-rw------- 1 ibab ibab 1554996 Aug 12 16:04 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/094aac13-ffbe-4262-9549-3b5d08b15e0a/28932cccbc2fbad2_0'
+-rw------- 1 ibab ibab 1469897 Aug 12 16:04 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/094aac13-ffbe-4262-9549-3b5d08b15e0a/24876756ce0ed18e_0'
+-rw------- 1 ibab ibab 2407834 Aug 12 16:04 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/094aac13-ffbe-4262-9549-3b5d08b15e0a/ba763069a789625b_1'
+-rw------- 1 ibab ibab 1240476 Aug 12 16:04 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/094aac13-ffbe-4262-9549-3b5d08b15e0a/8a736df324ef49fe_0'
+-rw------- 1 ibab ibab 2379999 Aug 12 16:04 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/094aac13-ffbe-4262-9549-3b5d08b15e0a/ff07dde08310c84d_1'
+-rw------- 1 ibab ibab 2816856 Aug  7 10:10 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/d26de963-e592-4400-b605-f09a5aafd137/eb2531a537ababb8_0'
+-rw------- 1 ibab ibab 2816877 Aug  7 10:10 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/d26de963-e592-4400-b605-f09a5aafd137/087b47c1ecc94ecb_0'
+-rw------- 1 ibab ibab 2816874 Aug  7 10:10 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/579544fd7d0441717f082c9eb123588966aa57ac/d26de963-e592-4400-b605-f09a5aafd137/1236a2b8cf48210e_0'
+-rw------- 1 ibab ibab 1118157 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/6d4594b6-abea-4737-8023-64eba5bc7be9/e535aa0c3f24e8c3_0'
+-rw------- 1 ibab ibab 2037211 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/6d4594b6-abea-4737-8023-64eba5bc7be9/be4e59a802dba45f_0'
+-rw------- 1 ibab ibab 1720018 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/6d4594b6-abea-4737-8023-64eba5bc7be9/4b93a350a7023192_0'
+-rw------- 1 ibab ibab 2808722 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/6d4594b6-abea-4737-8023-64eba5bc7be9/006aa8163221dce8_0'
+-rw------- 1 ibab ibab 2809425 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/6d4594b6-abea-4737-8023-64eba5bc7be9/fdeca14d34a5edb5_0'
+-rw------- 1 ibab ibab 1091434 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/6d4594b6-abea-4737-8023-64eba5bc7be9/2cf362d8588d67b0_0'
+-rw------- 1 ibab ibab 4254382 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/6d4594b6-abea-4737-8023-64eba5bc7be9/62883dd79260504e_0'
+-rw------- 1 ibab ibab 2938651 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/6d4594b6-abea-4737-8023-64eba5bc7be9/1b8b2d7319309453_0'
+-rw------- 1 ibab ibab 2628987 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/6d4594b6-abea-4737-8023-64eba5bc7be9/1435d79c11c41d14_0'
+-rw------- 1 ibab ibab 4637165 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/ecbf6220-4a71-476a-a9c2-919fa02f91b8/f831538a7b3a8751_1'
+-rw------- 1 ibab ibab 1818375 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/ecbf6220-4a71-476a-a9c2-919fa02f91b8/3a16f6eabacdc669_1'
+-rw------- 1 ibab ibab 1084767 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/ecbf6220-4a71-476a-a9c2-919fa02f91b8/a517084405a46f06_0'
+-rw------- 1 ibab ibab 6764853 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/ecbf6220-4a71-476a-a9c2-919fa02f91b8/f831538a7b3a8751_0'
+-rw------- 1 ibab ibab 5033132 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/97de00a0-21e9-41d7-b1ac-9698d85f0703/b6314d4d60886714_0'
+-rw------- 1 ibab ibab 2454103 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/97de00a0-21e9-41d7-b1ac-9698d85f0703/353b678a8fcd2c63_0'
+-rw------- 1 ibab ibab 1356784 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/97de00a0-21e9-41d7-b1ac-9698d85f0703/0bbe8b8e23ccf864_0'
+-rw------- 1 ibab ibab 1720026 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/97de00a0-21e9-41d7-b1ac-9698d85f0703/6b1c92e6784f538f_0'
+-rw------- 1 ibab ibab 2240360 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/97de00a0-21e9-41d7-b1ac-9698d85f0703/1a0fd8d1c90367bd_0'
+-rw------- 1 ibab ibab 1152052 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/97de00a0-21e9-41d7-b1ac-9698d85f0703/762e8732c3680ed2_0'
+-rw------- 1 ibab ibab 1091443 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/97de00a0-21e9-41d7-b1ac-9698d85f0703/8d0679736398c5e2_0'
+-rw------- 1 ibab ibab 4058807 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c311fdd1-ad5b-42c7-a62d-95014be65b4e/08bd448b0bf37a77_0'
+-rw------- 1 ibab ibab 2229136 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c311fdd1-ad5b-42c7-a62d-95014be65b4e/2f5b03284cde0a5f_0'
+-rw------- 1 ibab ibab 2190600 Aug  6 09:44 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c311fdd1-ad5b-42c7-a62d-95014be65b4e/f8a10122e46195dd_0'
+-rw------- 1 ibab ibab 1091258 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/d95018a4e47530ed_0'
+-rw------- 1 ibab ibab 3005331 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/37e41ef20dcbb478_0'
+-rw------- 1 ibab ibab 6534331 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/fb7a046f34e422aa_0'
+-rw------- 1 ibab ibab 2785579 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/b9c32eeaa9522478_0'
+-rw------- 1 ibab ibab 1719944 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/f4c7398a4c792511_0'
+-rw------- 1 ibab ibab 3239770 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/54ab54230e3c158e_0'
+-rw------- 1 ibab ibab 4204301 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/f1292d42460c103b_0'
+-rw------- 1 ibab ibab 1738612 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/472fddd20dbbd5fe_0'
+-rw------- 1 ibab ibab 2416463 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/13f540b56b83d77c_0'
+-rw------- 1 ibab ibab 3239794 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/41dece36a35d3bb1_0'
+-rw------- 1 ibab ibab 4459087 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/3b2eef41dc1d8ed7_0'
+-rw------- 1 ibab ibab 3006048 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/6e05070820f17f7b_0'
+-rw------- 1 ibab ibab 4070073 Aug  9 09:50 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/8cbb992fe0cd9ef960e69a214646bd270516a23e/c3c11ff3-0062-42ee-a7bf-2e60f8301536/d07f9949f9823676_0'
+-rw------- 1 ibab ibab 1326567 Aug 12 15:03 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/eadf114e35641d8a14aa9648d8e1c01b4b3bb3f0/954c25b2-fcd5-4ba4-92ce-ef3538c61d1d/0297fbff4f2cf7f5_0'
+-rw------- 1 ibab ibab 2455153 Aug 12 15:03 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/eadf114e35641d8a14aa9648d8e1c01b4b3bb3f0/954c25b2-fcd5-4ba4-92ce-ef3538c61d1d/fa663fc64a2465db_1'
+-rw------- 1 ibab ibab 3097129 Aug 12 15:03 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/eadf114e35641d8a14aa9648d8e1c01b4b3bb3f0/954c25b2-fcd5-4ba4-92ce-ef3538c61d1d/26895c83e76fba7f_0'
+-rw------- 1 ibab ibab 3723753 Aug 12 15:03 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/eadf114e35641d8a14aa9648d8e1c01b4b3bb3f0/954c25b2-fcd5-4ba4-92ce-ef3538c61d1d/0297fbff4f2cf7f5_1'
+-rw------- 1 ibab ibab 2767712 Aug 12 15:08 '/home/ibab/.config/google-chrome/Default/Service Worker/CacheStorage/eadf114e35641d8a14aa9648d8e1c01b4b3bb3f0/9239f65a-1f56-4c34-a784-ad613367ba3d/9279a43144a2ec8e_1'
+-rw------- 1 ibab ibab 1056768 Aug  9 09:50 /home/ibab/.config/google-chrome/Default/GPUCache/data_2
+-rw------- 1 ibab ibab 4202496 Aug  8 11:05 /home/ibab/.config/google-chrome/Default/GPUCache/data_3
+-rw------- 1 ibab ibab 2129491 Aug  8 12:04 /home/ibab/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000125.ldb
+-rw------- 1 ibab ibab 2121596 Aug  8 12:04 /home/ibab/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000121.ldb
+-rw------- 1 ibab ibab 2123555 Aug  8 12:04 /home/ibab/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000118.ldb
+-rw------- 1 ibab ibab 2119465 Aug  8 12:04 /home/ibab/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000123.ldb
+-rw------- 1 ibab ibab 2124941 Aug  8 12:04 /home/ibab/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000120.ldb
+-rw------- 1 ibab ibab 2123088 Aug  8 12:04 /home/ibab/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000124.ldb
+-rw------- 1 ibab ibab 2112652 Aug 12 12:04 /home/ibab/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000140.ldb
+-rw------- 1 ibab ibab 2120182 Aug  8 12:04 /home/ibab/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/000119.ldb
+-rw------- 1 ibab ibab 2886204 Aug 12 16:04 /home/ibab/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000066.ldb
+-rw------- 1 ibab ibab 2993250 Aug 12 17:25 /home/ibab/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000065.log
+-rw------- 1 ibab ibab 2330067 Aug 11 22:36 /home/ibab/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000036.log
+-rw------- 1 ibab ibab 1353834 Aug  6 09:44 /home/ibab/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.blob/4/00/42
+-rw------- 1 ibab ibab 1354561 Aug  8 08:57 /home/ibab/.config/google-chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.blob/4/00/57
+-rw------- 1 ibab ibab 2260992 Aug 12 17:33 /home/ibab/.config/google-                                 [25;1H~                                                                                                                       [26;1H~                                                                                                                       [1;1H[?25h[?4m[m#![?2004l[>4;m[?25l?bin/bash#!?[?25h[?2004h[>4;2m?[?4m[?25lin/bash[1;11H[K[1;4H[?25h[?25ln/bash[1;10H[K[1;4H[?25h[?25l/bash[1;9H[K[1;4H[?25h[?25lbash[1;8H[K[1;4H[?25h[?25lash[1;7H[K[1;4H[?25h[?25lsh[1;6H[K[1;4H[?25h[?25lh[1;5H[K[1;4H[?25h[?25l[1;4H[K[1;3H[?25h[?25l[1;3H[K[1;2H[?25h[?25l[1;2H[K[1;1H[?25h[?25l[1;1H[K[1;1H[?25h[?2004l[>4;m[?25l#[?25h[?25l![?25h[?25l/[?25h[?25lb[?25h[?25li[?25h[?25ln[?25h[?25l/[?25h[?25lb[?25h[?25la[?25h[?25ls[?25h[?25lh[?25h[?2004h[>4;2m[?4m[?25l[27;1H[K[27;1H:[?25hwq![?25l[?2004l[>4;m"list_files.sh" 4 lines, 112 bytes written[23;2t[23;1t
+[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ./list_files.sh
+[?2004lEnter the directory name:veda
+Below are the contents of the directory
+ls: cannot access 'veda': No such file or directory
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ./list_files.sh
+[?2004lEnter the directory name:backup      lab1
+Below are the contents of the directory
+total 56
+drwxrwxr-x 4 ibab ibab  4096 Jul 26 12:02 'lab1_Vedavalli V'
+-rw-rw-r-- 1 ibab ibab  9349 Jul 25 18:07 'lab1_Vedavalli V.zip'
+drwxrwxr-x 4 ibab ibab  4096 Jul 26 11:55  lab1_VV
+-rw-rw-r-- 1 ibab ibab  1233 Jul 25 16:53  typescript_VV_Lab1_ex1.txt
+-rw-rw-r-- 1 ibab ibab 16384 Jul 29 10:10  typescript_VV_Lab1_ex3.txt
+-rw-rw-r-- 1 ibab ibab 15473 Jul 25 17:31  typescript_VV_Lab2_ex2.txt
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cd[K[Kexit
+[?2004lexit
+
+Script done on 2024-08-12 17:20:31+05:30 [COMMAND_EXIT_CODE="0"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [?2004l
+exit
+
+Script done on 2024-08-12 18:06:47+05:30 [COMMAND_EXIT_CODE="0"]
+l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/backup1[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/backup1[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-12 17:42:28+05:30 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,288 @@
+Script started on 2024-08-05 16:32:14+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="29"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ export[K[K[K[K[Kcho $SUBSHELL_VAR
+[?2004l
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ SCHO[K[K[K[KECHO [K[K[K[K[Kecho $subshell_val
+[?2004l
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ export SUBSHELL_VAL[KR=SU[K[Ksubshell_va;[Klue
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ez[Kcho $s[KSUBSHELL [K_VAR
+[?2004lsubshell_value
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo $SUBSHELL_VAR
+[?2004lsubshell_value
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ source vi[K[K.bashrc
+[?2004lSUBSHELL_VAR: command not found
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ vi .bashrc
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H".bashrc" 119 lines, 3815 bytes[1;1HSUBSHELL_VAR
+export MY_TXT="Hello, World!"
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;[10;7H*) return;;
+esac
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize[1;1H[?25h[?4m[?25l[27;1H[K[27;1H:[?25hq1[?25l[27;3H[K[27;3H[?25h![?25l[?2004l[>4;m[23;2t[23;1t[27;1H[K[27;1H[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo $SUBSHELL_VAR
+[?2004lsubshell_value
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ vi.ba[K[K[K .bashrc
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H[97m[41mE325: ATTENTION[m
+Found a swap file by the name ".bashrc.swp"
+[10Cowned by: ibab   dated: Mon Aug 05 16:53:53 2024
+[9Cfile name: ~ibab/.bashrc
+[10Cmodified: no
+[9Cuser name: ibab   host name: IBAB-MScBDB02-Comp013.ibab.ac.in
+[8Cprocess ID: 12200 (STILL RUNNING)
+While opening file ".bashrc"
+[13Cdated: Mon Aug 05 16:41:44 2024
+
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r .bashrc"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".bashrc.swp"
+    to avoid this message.
+
+".bashrc"[26;1H".bashrc" 119 lines, 3815 bytes[27;1H[K[27;1H[32mPress ENTER or type command to continue[?25h[m[1;1H[19L[?25l[1;1HSUBSHELL_VAR
+export MY_TXT="Hello, World!"
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;[10;7H*) return;;
+esac
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize[27;1H[K[1;1H[?25h[?25l[27;1H:[?25hq![?25l[?2004l[>4;m[23;2t[23;1t[27;1H[K[27;1H[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ vi .bashrc
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H".bashrc" 119 lines, 3815 bytes[1;1HSUBSHELL_VAR
+export MY_TXT="Hello, World!"
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;[10;7H*) return;;
+esac
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize[1;1H[?25h[?4mS
+e
+#
+#
+#
+
+#
+c
+ 
+ 
+e
+
+#
+#
+H
+
+#
+s
+
+#
+H
+H
+
+#
+#
+s[?25l[1;26r[26;1H
+[1;27r[27;1H[K[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# If set, the pattern "**" used in a pathname expansion context will#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# match all files and zero or more directories and subdirectories.#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H#shopt -s globstar#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# make less more friendly for non-text input files, see lesspipe(1)#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"[[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# set variable identifying the chroot you work in (used in the prompt below)#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hif [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; theni[?25h[?25l[1;26r[26;1H
+[1;27r[26;5Hdebian_chroot=$(cat /etc/debian_chroot) [?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hfi[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# set a fancy prompt (non-color, unless we know we "want" color)#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hcase "$TERM" inc[?25h[?25l[1;26r[26;1H
+[1;27r[26;5Hxterm-color|*-256color) color_prompt=yes;; [?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hesace[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# uncomment for a colored prompt, if the terminal has the capability; turned#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# off by default to not distract the user: the focus in a terminal window#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# should be on the output of commands, not on the prompt#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H#force_color_prompt=yes#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hif [ -n "$force_color_prompt" ]; theni[?25h[?25l[1;26r[26;1H
+[1;27r[26;5Hif [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then [?25h[?25l[1;26r[26;1H
+[1;27r[26;9H# We have color support; assume it's compliant with Ecma-48[26;8H[?25h[?25l[1;26r[26;1H
+[1;27r[26;9H# (ISO/IEC-6429). (Lack of such support is extremely rare, and such[26;8H[?25h[?25l[1;26r[26;1H
+[1;27r[26;9H# a case would tend to support setf rather than setaf.)[26;8H[?25h[?25l[1;26r[26;1H
+[1;27r[26;9Hcolor_prompt=yes[26;8H[?25h[?25l[1;26r[26;1H
+[1;27r[26;5Helse [?25h[?25l[1;26r[26;1H
+[1;27r[26;9Hcolor_prompt=[26;8H[?25h[?25l[1;26r[26;1H
+[1;27r[26;5Hfi [?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hfi[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hif [ "$color_prompt" = yes ]; theni[?25h[?25l[1;26r[26;1H
+[1;27r[26;5HPS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ ' [?25h[?25l[1;26r[26;1H
+[1;27r[26;1Helsee[?25h[?25l[1;26r[26;1H
+[1;27r[26;5HPS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ ' [?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hfi[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hunset color_prompt force_color_promptu[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# If this is an xterm set the title to user@host:dir#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hcase "$TERM" inc[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hxterm*|rxvt*)x[?25h[?25l[1;26r[26;1H
+[1;27r[26;5HPS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1" [?25h[?25l[1;26r[26;1H
+[1;27r[26;5H;; [?25h[?25l[1;26r[26;1H
+[1;27r[26;1H*)[?25h[?25l[1;26r[26;1H
+[1;27r[26;5H;; [?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hesace[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# enable color support of ls and also add handy aliases#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hif [ -x /usr/bin/dircolors ]; theni[?25h[?25l[1;26r[26;1H
+[1;27r[26;5Htest -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)" [?25h[?25l[1;26r[26;1H
+[1;27r[26;5Halias ls='ls --color=auto' [?25h[?25l[1;26r[26;1H
+[1;27r[26;5H#alias dir='dir --color=auto' [?25h[?25l[1;26r[26;1H
+[1;27r[26;5H#alias vdir='vdir --color=auto' [?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;5Halias grep='grep --color=auto' [?25h[?25l[1;26r[26;1H
+[1;27r[26;5Halias fgrep='fgrep --color=auto' [?25h[?25l[1;26r[26;1H
+[1;27r[26;5Halias egrep='egrep --color=auto' [?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hfi[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# colored GCC warnings and errors#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# some more ls aliases#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Halias ll='ls -alF'a[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Halias la='ls -A'a[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Halias l='ls -CF'a[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# Add an "alert" alias for long running commands.  Use like so:#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H#   sleep 10; alert#[?25h[?25l[1;26r[1;1H[2M[1;27r[25;1Halias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\'''[26;1Hs/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'[25;2H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# Alias definitions.#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# You may want to put all your additions into a separate file like#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# ~/.bash_aliases, instead of adding them here directly.#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# See /usr/share/doc/bash-doc/examples in the bash-doc package.#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hif [ -f ~/.bash_aliases ]; theni[?25h[?25l[1;26r[26;1H
+[1;27r[26;5H. ~/.bash_aliases [?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hfi[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# enable programmable completion features (you don't need to enable#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# this, if it's already enabled in /etc/bash.bashrc and /etc/profile#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# sources /etc/bash.bashrc).#[?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hif ! shopt -oq posix; theni[?25h[?25l[1;26r[26;1H
+[1;27r[26;3Hif [ -f /usr/share/bash-completion/bash_completion ]; then [?25h[?25l[1;26r[26;1H
+[1;27r[26;5H. /usr/share/bash-completion/bash_completion [?25h[?25l[1;26r[26;1H
+[1;27r[26;3Helif [ -f /etc/bash_completion ]; then [?25h[?25l[1;26r[26;1H
+[1;27r[26;5H. /etc/bash_completion [?25h[?25l[1;26r[26;1H
+[1;27r[26;3Hfi [?25h[?25l[1;26r[26;1H
+[1;27r[26;1Hfi[?25h[?25l
+:[?25hq1!![?25l[27;5H[K[27;5H[?25h[?25l[27;4H[K[27;4H[?25h[?25l[27;3H[K[27;3H[?25h![?25l[?2004l[>4;m[23;2t[23;1t[27;1H[K[27;1H[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ vi .bash[K[K[K[K[K`[K~/.bashrc
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;27r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[27;1H"~/.bashrc" 119 lines, 3815 bytes[1;1HSUBSHELL_VAR
+export MY_TXT="Hello, World!"
+# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;[10;7H*) return;;
+esac
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize[1;1H[?25h[?4m[?2004l[>4;m[?25l[12C=subshell_value;SUBSHELL_VAR[1;29H[?25h[?2004h[>4;2m;[?4mSUBSHELL_VA[?25l[1;40H[K[1;39H[?25h[?25l[1;39H[K[1;38H[?25h[?25l[1;38H[K[1;37H[?25h[?25l[1;37H[K[1;36H[?25h[?25l[1;36H[K[1;35H[?25h[?25l[1;35H[K[1;34H[?25h[?25l[1;34H[K[1;33H[?25h[?25l[1;33H[K[1;32H[?25h[?25l[1;32H[K[1;31H[?25h[?25l[1;31H[K[1;30H[?25h[?25l[1;30H[K[1;29H[?25h[?25l[1;29H[K[1;28H[?25h[?25l[1;28H[K[1;27H[?25h[11C[?2004l[>4;m[?25leSUBSHELL_VAR=subshell_valuee[?25h[?25lxSUBSHELL_VAR=subshell_valueex[?25h[?25lpSUBSHELL_VAR=subshell_valueexp[?25h[?25loSUBSHELL_VAR=subshell_valueexpo[?25h[?25lrSUBSHELL_VAR=subshell_valueexpor[?25h[?25ltSUBSHELL_VAR=subshell_value[1;7H[?25h[?25l SUBSHELL_VAR=subshell_value[1;8H[?25h[?25l[2;26r[2;1H[L[1;27r[1;8H[K[2;1HSUBSHELL_VAR=subshell_value[27;1H[K[2;1H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;26r[2;1H[L[1;27r[2;1HD[?4m[?25h[?2004h[>4;2m[?25ld[?25h[?4m[?25l[2;1H[K[2;1H[?25h[?25l[2;26r[26;1H
+[1;27r[26;1H# update the values of LINES and COLUMNS.[2;1H[?25h[11C[?25l=subshell_value[2;27H[K[2;12H[?25h[?25l=Rsubshell_value[2;13H[?25h[?2004l[>4;m[?25l[3;26r[3;1H[L[1;27r[3;1H[?25h[?25lr[?25h[?25lt[?25h[?2004h[>4;2m[?25lT[?25h[?4m[?25l[3;2H[K[3;1H[?25h[?25l[3;1H[K[3;1H[?25h[2;1H[?2004l[>4;m[?25leSUBSHELL_VA=Rsubshell_valuee[?25h[?25lxSUBSHELL_VA=Rsubshell_valueex[?25h[?25lpSUBSHELL_VA=Rsubshell_valueexp[?25h[?25loSUBSHELL_VA=Rsubshell_valueexpo[?25h[?25lrSUBSHELL_VA=Rsubshell_valueexpor[?25h[?25ltSUBSHELL_VA=Rsubshell_value[2;7H[?25h[?25l SUBSHELL_VA=Rsubshell_value[2;8H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;26r[2;1H[L[1;27r[2;1HA[?4m[?25h[?2004h[>4;2m[?25la[?25h[?4m[?25l[2;26r[26;1H
+[1;27r[26;1H# check the window size after each command and, if necessary,[2;1H[?25h[?25lxport SUBSHELL_VA=Rsubshell_value[2;34H[K[2;1H[?25h[?2004l[>4;m[?25lexport SUBSHELL_VA=Rsubshell_valuee[?25h[?2004h[>4;2m[?4m[1;1H[?25l[1;26r[26;1H
+[1;27r[26;1H# update the values of LINES and COLUMNS.[1;1H[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25lC[1;2H[K[2;1Hexport SUBSHELL_VA=Rsubshell_value[3;1H[K[4;1Hexport MY_TXT="Hello, World!" [4;31H[K[5;3H~/.bashrc: executed by bash(1) for non-login shells.[5;55H[K[6;3Hsee /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples[8;1H[K[9;1H# If not running interactively, don't do anything
+case $- in[10;11H[K[11;5H*i*) ;;[11;12H[K[12;1H      *) return;;
+esac[14;1H[K[15;3Hdon't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth[18;1H[K[19;1H# append to the history file, don't overwrite it
+shopt -s histappend[21;1H[K[22;1H# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000[23;14H[K[24;1HHISTFILESIZE=2000[25;1H[K[26;3Hcheck the window size after each command and, if necessary,[1;2H[?4m[?25h[?2004h[>4;2m[?25lc[?25h[?4m[?25l[1;1H[K[1;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# update the values of LINES and COLUMNS.[1;1H[?25hexport SUBSHELL_VA[?25lRsubshell_value[1;34H[K[1;19H[?25h[?2004l[>4;m[?25l=Rsubshell_value[1;20H[?25h[?2004h[>4;2m=[?4m[?25lsubshell_value[1;34H[K[1;20H[?25h[?25lsubshell_value[1;33H[K[1;19H[?25h[?2004l[>4;m[?25lrsubshell_value[1;20H[?25h[?2004h[>4;2m[?25lR[?25h[?4m[?2004l[>4;m[?25l+subshell_value[1;21H[?25h[?2004h[>4;2m+[?4m[?25lubshell_value[1;34H[K[1;21H[?25h[?25lbshell_value[1;33H[K[1;21H[?25h[?25lshell_value[1;32H[K[1;21H[?25h[?25lhell_value[1;31H[K[1;21H[?25h[?25lell_value[1;30H[K[1;21H[?25h[?25lll_value[1;29H[K[1;21H[?25h[?25ll_value[1;28H[K[1;21H[?25h[?25l_value[1;27H[K[1;21H[?25h[?25lvalue[1;26H[K[1;21H[?25h[?25lalue[1;25H[K[1;21H[?25h[?25llue[1;24H[K[1;21H[?25h[?25lue[1;23H[K[1;21H[?25h[?25le[1;22H[K[1;21H[?25h[?25l[1;21H[K[1;20H[?25h[?25l[1;20H[K[1;19H[?25h[?2004l[>4;m[?25l=R[?25h[?2004h[>4;2m=[?4m[?25l[1;20H[K[1;19H[?25h[?25l[1;19H[K[1;18H[?25h[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25lC[1;2H[K[2;1Hexport SUBSHELL_VA[3;1H[K[4;1Hexport MY_TXT="Hello, World!" [4;31H[K[5;3H~/.bashrc: executed by bash(1) for non-login shells.[5;55H[K[6;3Hsee /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples[8;1H[K[9;1H# If not running interactively, don't do anything
+case $- in[10;11H[K[11;5H*i*) ;;[11;12H[K[12;1H      *) return;;
+esac[14;1H[K[15;3Hdon't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth[18;1H[K[19;1H# append to the history file, don't overwrite it
+shopt -s histappend[21;1H[K[22;1H# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000[23;14H[K[24;1HHISTFILESIZE=2000[25;1H[K[26;3Hcheck the window size after each command and, if necessary,[1;2H[?4m[?25h[?2004h[>4;2m[?25lc[?25h[?4m[?25l[1;1H[K[1;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# update the values of LINES and COLUMNS.[1;1H[?25hexport SUBSHELL_V[?2004l[>4;m[?25laA[?25h[?25lrA[?25h[?2004h[>4;2m[?25lR[?25h[?4m[?25l[1;20H[K[1;19H[?25h[?25l[1;19H[K[1;18H[?25h[?25l[1;18H[K[1;17H[?25h[?2004l[>4;mV[?25li[?25h[?25la[?25h[?25lr[?25h[?2004h[>4;2m[?25lR[?25h[?4m[?25l[1;20H[K[1;19H[?25h[?25l[1;19H[K[1;18H[?25h[?25l[1;18H[K[1;17H[?25h[?25l[1;17H[K[1;16H[?25h[?25l[1;16H[K[1;15H[?25h[?25l[1;15H[K[1;14H[?25h[?25l[1;14H[K[1;13H[?25h[?25l[1;13H[K[1;12H[?25h[?25l[1;12H[K[1;11H[?25h[?25l[1;11H[K[1;10H[?25h[?25l[1;10H[K[1;9H[?25h[?25l[1;9H[K[1;8H[?25h[?25l[1;8H[K[1;7H[?25h[?2004l[>4;m[?25l [?25h[?25ls[?25h[?25l[?25h[?2004h[>4;2m[?25l [?25h [?4m[?2004l[>4;m[?2004h[>4;2m[?2004l[>4;m[?25lC[1;2H[K[2;1Hexport[3;1H[K[4;1Hexport MY_TXT="Hello, World!" [4;31H[K[5;3H~/.bashrc: executed by bash(1) for non-login shells.[5;55H[K[6;3Hsee /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples[8;1H[K[9;1H# If not running interactively, don't do anything
+case $- in[10;11H[K[11;5H*i*) ;;[11;12H[K[12;1H      *) return;;
+esac[14;1H[K[15;3Hdon't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth[18;1H[K[19;1H# append to the history file, don't overwrite it
+shopt -s histappend[21;1H[K[22;1H# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000[23;14H[K[24;1HHISTFILESIZE=2000[25;1H[K[26;3Hcheck the window size after each command and, if necessary,[1;2H[?4m[?25h[?2004h[>4;2m[?25lc[?25h[?4m[?25l[1;1H[K[1;1H[?25h[?25l[1;26r[26;1H
+[1;27r[26;1H# update the values of LINES and COLUMNS.[1;1H[?25hexport [?2004l[>4;m[?25lS[?25h[?25lU[?25h[?25lB[?25h[?25lS[?25h[?25lH[?25h[?25lE[?25h[?25lL[?25h[?25lL[?25h[?25l_[?25h[?25lV[?25h[?25lA[?25h[?25lR[?25h[?25l=[?25h[?25ls[?25h[?25lu[?25h[?25lb[?25h[?25ls[?25h[?25lh[?25h[?25le[?25h[?25ll[?25h[?25ll[?25h[?25l_[?25h[?25lv[?25h[?25la[?25h[?25ll[?25h[?25lu[?25h[?25le[?25h[?2004h[>4;2m[?4m[?25l[27;1H:[?25hwq![?25l[?2004l[>4;m".bashrc" 120 lines, 3839 bytes written[23;2t[23;1t
+[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo $SUBSHELL_VAR
+[?2004lsubshell_value
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ SOURCE [K[K[K[K[K[K[Ksource .bashrc
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo $SUBSHELL_VAR
+[?2004lsubshell_value
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-05 17:08:36+05:30 [COMMAND_EXIT_CODE="0"]

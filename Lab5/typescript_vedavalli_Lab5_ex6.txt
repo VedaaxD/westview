@@ -1,0 +1,12 @@
+Script started on 2024-08-08 15:15:12+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="120" LINES="27"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo "This is file creata[Ked fo[Krom the command line. This is a[Kto test redirection" > sample.tx t
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat sample.txt
+[?2004lThis is file created from the command line. This is to test redirection
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo "Adding more contents to the file" >> sample.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat sample.txt
+[?2004lThis is file created from the command line. This is to test redirection
+Adding more contents to the file
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-08 15:17:19+05:30 [COMMAND_EXIT_CODE="0"]

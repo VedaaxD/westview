@@ -1,0 +1,74 @@
+Script started on 2024-08-08 15:20:06+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="120" LINES="27"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ln friends.txt fl.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ls -l fl.txt
+[?2004l-rw-rw-r-- 2 ibab ibab 95 Aug  8 14:21 fl.txt
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo "ra[K[KRaya"[K[Ka Shanaz" >> friends.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat friends.txt
+[?2004l
+Joliss Princia
+Reetham Muthamma
+Brinda
+Khusbu
+Aritri
+Tanega
+Shruthi
+Yashpriya
+Mounika
+Moulika
+Raya Shanaz
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat fl.txt
+[?2004l
+Joliss Princia
+Reetham Muthamma
+Brinda
+Khusbu
+Aritri
+Tanega
+Shruthi
+Yashpriya
+Mounika
+Moulika
+Raya Shanaz
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ mv friends.txt friends_dup.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ls -l fl.txt
+[?2004l-rw-rw-r-- 2 ibab ibab 107 Aug  8 15:23 fl.txt
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ls fl.txt
+[?2004lfl.txt
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat fl.txt
+[?2004l
+Joliss Princia
+Reetham Muthamma
+Brinda
+Khusbu
+Aritri
+Tanega
+Shruthi
+Yashpriya
+Mounika
+Moulika
+Raya Shanaz
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ln -s friends_dup.txt sfl.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ls -l sfl.txt
+[?2004llrwxrwxrwx 1 ibab ibab 15 Aug  8 15:28 [0m[01;36msfl.txt[0m -> friends_dup.txt
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo "v[KVarsho[Kini" >> te[K[Kfriends_dup.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat sfl.txt
+[?2004l
+Joliss Princia
+Reetham Muthamma
+Brinda
+Khusbu
+Aritri
+Tanega
+Shruthi
+Yashpriya
+Mounika
+Moulika
+Raya Shanaz
+Varshini
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ mv friends_dup.txt mv[K[Kbestfriends.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat sfl.txt
+[?2004lcat: sfl.txt: No such file or directory
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-08 15:34:02+05:30 [COMMAND_EXIT_CODE="1"]

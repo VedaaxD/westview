@@ -1,0 +1,32 @@
+Script started on 2024-08-08 17:22:45+05:30 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="120" LINES="29"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [7mecho -e "Alice:30\nBob:25\nCharlie:35\nDaisy:28" > people.txt[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e "Alice:30\nBob:25\nCharlie:35\nDaisy:28" > people.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat people.txt
+[?2004lAlice:30
+Bob:25
+Charlie:35
+Daisy:28
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat 
+Display all 122 possibilities? (y or n)
+]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat pep[Kople.xt[K[Ktxt | cut -d':"[K' -f1
+[?2004lAlice
+Bob
+Charlie
+Daisy
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat people.txt | cut -d':" -f1 | sort 
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [7mcat people.txt | cut -d':" -f1 | sort [27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcat people.txt | cut -d':" -f1 | sort[Kt people.txt
+[?2004l[?2004h> ^C[?2004l[?2004h[?2004l
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [7mcat people.txt | cut -d':' -f1[27mcat people.txt | cut -d':' -f1[1@s[1@o[1@r[1@t[1@|
+[?2004lAlice
+Bob
+Charlie
+Daisy
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [7mcat people.txt |sort| cut -d':' -f1[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat people.txt |sort| cut -d':' -f1[1@ [1@-[1@n[1@r
+[?2004lDaisy
+Charlie
+Bob
+Alice
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-08 17:27:52+05:30 [COMMAND_EXIT_CODE="0"]

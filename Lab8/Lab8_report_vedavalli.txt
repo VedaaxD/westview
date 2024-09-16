@@ -1,0 +1,24 @@
+Exercise 3
+//Pseudocode for checking whether the given number is a Prime number.
+{
+initialize prime=TRUE
+ (( for i=2 ; i<number ; i++ )) 
+// check if the number is 1
+	{if (( number == 1 ))
+	then 
+		echo " $number is a unique number "
+	}
+// check if the number is less than or equal to 0
+	{if (( number -le 0 ))
+	then
+		echo " $number is an invalid entry."
+	}
+// for number>=2 check if the number is divisible by all the numbers from 3 to itself and if the remainder is 0
+for (( i = 2; i<$number; i++ ))
+	{if (( number % i == 0 ))
+	then
+		prime=FALSE
+		break
+	}
+echo "The number $number is a prime number: $prime"
+}

@@ -1,0 +1,160 @@
+Script started on 2024-08-08 16:39:34+05:30 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="120" LINES="29"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ls -l
+[?2004ltotal 108364
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 a
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:48 abdb1.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:48 abdb2.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:48 abdb3.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:50 akbdb1.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:55 akdb1.txt
+drwxrwxr-x 2 ibab     ibab          4096 Aug  5 10:11 [0m[01;34maug1test[0m
+drwxrwxr-x 2 ibab     ibab          4096 Aug  5 10:13 [01;34maug1text[0m
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:44 bac2.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:44 bac4.txt
+drwxrwxr-x 2 ibab     ibab          4096 Jul 30 18:59 [01;34mbackup[0m
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 bdb1.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 bdb2.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 bdb3.txt
+-rw-rw-r-- 1 ibab     ibab           143 Aug  8 16:00 best_friends.txt
+-rw-rw-r-- 2 ibab     ibab           116 Aug  8 15:31 bestfriends.txt
+-rw-rw-r-- 1 newowner newgroup         0 Aug  5 15:56 bothfile.txt
+drwxrwxr-x 2 ibab     ibab          4096 Aug  5 09:58 [01;34mcode[0m
+drwxrwxr-x 2 ibab     ibab          4096 Aug  1 12:58 [01;34mcode_dir[0m
+-rw-rw-r-- 1 ibab     ibab             0 Jul 25 17:29 command
+-rw-rw-r-- 1 ibab     ibab         20369 Aug  5 17:33 [01;31mcpu_info.txt.gz[0m
+drwxrwxr-x 3 ibab     ibab          4096 Aug  5 09:59 [01;34mdata[0m
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 15:27 datafile.txt
+drwxr-xr-x 2 ibab     ibab          4096 Aug  5 09:03 [01;34mDesktop[0m
+drwxrwxr-x 2 ibab     ibab          4096 Aug  1 12:57 [01;34mdir[0m
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mDocuments[0m
+drwxr-xr-x 4 ibab     ibab          4096 Aug  1 14:11 [01;34mDownloads[0m
+-rw-rw-r-- 1 ibab     ibab            54 Aug  8 15:06 error.txt
+-rw-rw-r-- 1 ibab     ibab           206 Aug  8 15:42 ex8.txt
+-rw-rw-r-- 1 ibab     ibab          4096 Jul 31 10:56 exercise4.txt
+drwxrwxr-x 2 ibab     ibab          4096 Jul 30 19:25 [01;34mexercise_dir[0m
+lrwxrwxrwx 1 ibab     ibab            12 Aug  5 10:38 [40;31;01mex.txt[0m -> [40;31;01mexercise.txt[0m
+-rw-rw-r-- 1 ibab     ibab            51 Aug  7 10:10 [01;31mfile1.gz[0m
+-rw-rw-r-- 1 ibab     ibab            46 Aug  7 10:12 [01;31mfile2.gz[0m
+-rw-rw-r-- 1 ibab     ibab             0 Jul 29 15:59 file2.txt
+-rw-rw-r-- 1 ibab     ibab            35 Aug  7 10:24 file3
+-rw-rw-r-- 1 ibab     ibab             0 Jul 29 15:59 file3.txt
+-rw-rw-r-- 1 ibab     ibab           855 Aug  8 14:42 file_list1.txt
+-rw-rw-r-- 1 ibab     ibab           855 Aug  8 14:39 file_list.txt
+-rw-rw-r-- 1 ibab     ibab           849 Aug  8 14:35 file.txt
+-rw-rw-r-- 2 ibab     ibab           116 Aug  8 15:31 fl.txt
+-rw-rw-r-- 1 ibab     ibab            90 Aug  8 16:32 fruits.txt
+-rw-rw-r-- 1 ibab     ibab     108772160 Jul 16 04:27 [01;31mgoogle-chrome-stable_current_amd64.deb[0m
+drwxrwxr-x 2 ibab     newgroup      4096 Aug  5 16:02 [01;34mgroupdir[0m
+-rw-rw-r-- 1 ibab     newgroup         0 Aug  5 15:45 groupfile.txt
+-rw-rw-r-- 2 ibab     ibab             0 Aug  5 10:04 hl_one.txt
+drwxrwxr-x 5 ibab     ibab          4096 Aug  1 12:55 [01;34mhome[0m
+-rw-rw-r-- 1 ibab     ibab            25 Aug  8 16:01 j_names.txt
+drwxrwxr-x 4 ibab     ibab          4096 Jul 29 14:01 [01;34mlab1[0m
+drwxrwxr-x 4 ibab     ibab          4096 Jul 31 09:05 [01;34mlab2[0m
+-rw-rw-r-- 1 ibab     ibab           294 Jul 30 19:25 lab2.txt
+drwxrwxr-x 3 ibab     ibab          4096 Aug  1 17:26 [01;34mLab3[0m
+drwxrwxr-x 2 ibab     ibab          4096 Aug  5 17:41 [01;34mLab4[0m
+-rw-rw-r-- 1 ibab     ibab            64 Aug  8 14:56 log.txt
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mMusic[0m
+drwxrwxr-x 2 newowner ibab          4096 Aug  5 15:59 [01;34mmydir[0m
+-rw-rw-r-- 1 ibab     ibab            33 Aug  8 14:57 numbers.txt
+-rw-rw-r-- 2 ibab     ibab             0 Aug  5 10:04 one.txt
+-rw-rw-r-- 1 ibab     ibab           118 Aug  8 16:09 other_best_friends.txt
+-rw-rw-r-- 1 ibab     ibab            57 Aug  8 15:07 output.txt
+-rw-rw-r-- 1 newowner ibab             0 Aug  5 15:32 ownerfile.txt
+-rw-rw-r-- 1 ibab     ibab          3530 Aug  8 11:39 penv.txt
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mPictures[0m
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 15:27 program.sh
+dr--r--r-- 4 ibab     ibab          4096 Aug  1 15:01 [01;34mprojects[0m
+-rwxrwxr-- 1 ibab     ibab             0 Aug  5 15:27 [01;32mproject.txt[0m
+-rw-rw-r-- 1 ibab     ibab           119 Aug  5 16:27 ps1_val.txt
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mPublic[0m
+-rw-rw-r-- 1 ibab     ibab           105 Aug  8 15:16 sample.txt
+-rwxrwxr-x 1 ibab     ibab             0 Aug  5 15:26 [01;32mscript.sh[0m
+-rw-rw-r-- 1 ibab     ibab             0 Jul 29 17:22 secret.txt
+lrwxrwxrwx 1 ibab     ibab            15 Aug  8 15:28 [40;31;01msfl.txt[0m -> [40;31;01mfriends_dup.txt[0m
+lrwxrwxrwx 1 ibab     ibab             8 Aug  5 10:57 [01;36msl_lab2.txt[0m -> lab2.txt
+lrwxrwxrwx 1 ibab     ibab             7 Aug  5 10:30 [01;36msl_one.txt[0m -> one.txt
+drwx------ 6 ibab     ibab          4096 Aug  2 12:00 [01;34msnap[0m
+-rw-rw-r-- 1 ibab     ibab            33 Aug  8 14:59 sorted_numbers.txt
+drwxrwxr-x 2 ibab     ibab          4096 Jul 30 17:58 [01;34msource[0m
+drwxrwxr-x 2 ibab     ibab          4096 Jul 29 17:03 [01;34msourcefile1.txt[0m
+drwxrwxr-x 4 ibab     ibab          4096 Aug  7 11:29 [01;34mtar_test[0m
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mTemplates[0m
+drwxrwxr-x 2 ibab     ibab          4096 Aug  7 11:23 [01;34mtest[0m
+drwxrwxr-x 2 ibab     ibab          4096 Aug  7 11:23 [01;34mtest2[0m
+-rw-rw-r-- 1 ibab     ibab         10240 Aug  7 11:26 [01;31mtest_ar.tar[0m
+drwxrwxr-x 3 ibab     ibab          4096 Jul 29 14:51 [01;34mtest-dir[0m
+-r--r--r-- 1 ibab     ibab             0 Aug  5 15:26 testfile.txt
+-rw-rw-r-- 1 ibab     ibab             6 Aug  8 14:30 test.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 10:06 two.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  8 16:39 typescript
+-rw-rw-r-- 1 ibab     ibab       1597440 Aug  1 17:13 typescript_veda_lab3_ex1.txt
+-rw-rw-r-- 1 ibab     ibab          4070 Jul 29 14:52 typescript_vedavalli_lab2_ex1.txt
+-rw-rw-r-- 1 ibab     ibab          5754 Jul 30 19:01 typescript_vedavalli_lab2_ex2.txt
+-rw-rw-r-- 1 ibab     ibab          8856 Aug  8 14:23 typescript_vedavalli_Lab5_ex1.txt
+-rw-rw-r-- 1 ibab     ibab        159744 Aug  8 16:33 typescript_vedavalli_Lab5_ex2.txt
+-rw-rw-r-- 1 ibab     ibab          1028 Aug  8 14:56 typescript_vedavalli_Lab5_ex3.txt
+-rw-rw-r-- 1 ibab     ibab          5149 Aug  8 14:59 typescript_vedavalli_Lab5_ex4.txt
+-rw-rw-r-- 1 ibab     ibab          1546 Aug  8 15:08 typescript_vedavalli_Lab5_ex5.txt
+-rw-rw-r-- 1 ibab     ibab          1100 Aug  8 15:17 typescript_vedavalli_Lab5_ex6.txt
+-rw-rw-r-- 1 ibab     ibab          2977 Aug  8 15:34 typescript_vedavalli_Lab5_ex7.txt
+-rw-rw-r-- 1 ibab     ibab         73728 Aug  8 16:33 typescript_vedavalli_Lab5_ex8.txt
+-rw-rw-r-- 1 ibab     ibab         45056 Aug  8 16:33 typescript_vedavalli_Lab5_ex9.txt
+drwxr-xr-x 2 ibab     ibab          4096 Jul 22 15:21 [01;34mVideos[0m
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ ls -l \[K| head -n 10
+[?2004ltotal 108392
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:39 a
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:48 abdb1.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:48 abdb2.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:48 abdb3.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:50 akbdb1.txt
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:55 akdb1.txt
+drwxrwxr-x 2 ibab     ibab          4096 Aug  5 10:11 aug1test
+drwxrwxr-x 2 ibab     ibab          4096 Aug  5 10:13 aug1text
+-rw-rw-r-- 1 ibab     ibab             0 Aug  5 09:44 bac2.txt
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [7mecho -e "Jamun\nDurian\nMangosteen\nRambutan\nCustard apple\nPlum\nDragon fruit\nStar frui[27m[7mt[27m[7m\nJack fruit  [27m
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho -e "Jamun\nDurian\nMangosteen\nRambutan\nCustard apple\nPlum\nDragon fruit\nStar fruit\nJack fruit 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K" > fruits.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat fruits.txt
+[?2004lJamun
+Durian
+Mangosteen
+Rambutan
+Custard apple
+Plum
+Dragon fruit
+Star fruit
+Jack fruit
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat fruits.txt| t|[C |[1P[1@x[C[1P[C[C[C sort | uniq -c
+[?2004l      1 Custard apple
+      1 Dragon fruit
+      1 Durian
+      1 Jack fruit
+      1 Jamun
+      1 Mangosteen
+      1 Plum
+      1 Rambutan
+      1 Star fruit
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [7mecho -e "ERROR: Disk full\nINFO: User logged in\nERROR: Network down\nINFO:[27m
+[7mFile saved" > logfile.txt[27m[A]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo -e "ERROR: Disk full\nINFO: User logged in\nERROR: Network down\nINFO:
+[1PFile saved" > logfile.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho Durian"Durian[C[C[C[C[C[C" >> fruits,[K.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat fruits.txt | sort| uniq -c
+[?2004l      1 Custard apple
+      1 Dragon fruit
+      2 Durian
+      1 Jack fruit
+      1 Jamun
+      1 Mangosteen
+      1 Plum
+      1 Rambutan
+      1 Star fruit
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [7mecho -e "ERROR: Disk full\nINFO: User logged in\nERROR: Network down\nINFO:[27m
+[7mFile saved" > logfile.txt[27m[A]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo -e "ERROR: Disk full\nINFO: User logged in\nERROR: Network down\nINFO:
+File saved" > logfile.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ grep ERROR LOGFILE.TXT[K[K[K[K[K[K[K[K[K[K[K[K logfile.txt | wc -l
+[?2004l2
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-08 16:48:30+05:30 [COMMAND_EXIT_CODE="0"]

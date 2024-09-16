@@ -1,0 +1,5 @@
+length=int(input("Enter the length:"))
+breadth=int(input("Enter the breadth:"))
+perimeter=2*int(length+breadth)
+area=int(length*breadth)
+print ("The area of the rectangle is" , area, "sq.units","and", "the perimeter of the rectangle is", perimeter,"units")

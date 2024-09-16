@@ -1,0 +1,49 @@
+Script started on 2024-08-01 13:57:43+05:30 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="94" LINES="29"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ head -3 sequence.txt
+[?2004lhead: cannot open 'sequence.txt' for reading: No such file or directory
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ head -3sequence.txt
+[?2004lhead: invalid trailing option -- s
+Try 'head --help' for more information.
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ head -sequence.txt
+[?2004lhead: invalid option -- 's'
+Try 'head --help' for more information.
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ head-[K -3 /[K[K[K[K[K[K[K[K[Kcd download[K[K[K[K[K[K[K[KDownloads
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/Downloads[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/Downloads[00m$ head -sequence[K[K[K[K[K[K[K[K3[K10 sequence.txt
+[?2004l>Feature emb|FXLY01000002.1|
+770	>3	gene
+			locus_tag	KASA_0Q00001G
+770	>3	mRNA
+			product	hypothetical protein, no similarity (partial)
+770	>3	CDS
+			product	hypothetical protein, no similarity (partial)
+			protein_id	emb|SMN17669.1||gnl|WGS:FXLY|SMN17669
+			note	annotator: Serge Casaregola (CIRM-Levures, Micalis, INRA)
+4410	4685	gene
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/Downloads[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/Downloads[00m$ tail -10 sequence.txt
+[?2004l			product	similar to Saccharomyces cerevisiae YHL009C YAP3 Basic leucine zipper (bZIP) transcription factor
+2958656	2957652	CDS
+			product	similar to Saccharomyces cerevisiae YHL009C YAP3 Basic leucine zipper (bZIP) transcription factor
+			protein_id	emb|SMN18891.1||gnl|WGS:FXLY|SMN18891
+2959567	2959652	gene
+			locus_tag	KASA_0Q14503T
+2959567	2959652	mobile_element
+			mobile_element_type	retrotransposon
+			rpt_family	Putative Ty Long Terminal Repeat
+
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/Downloads[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/Downloads[00m$ head -5 sequence [K.txt
+[?2004l>Feature emb|FXLY01000002.1|
+770	>3	gene
+			locus_tag	KASA_0Q00001G
+770	>3	mRNA
+			product	hypothetical protein, no similarity (partial)
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/Downloads[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/Downloads[00m$ tail -5 sequence.txt
+[?2004l			locus_tag	KASA_0Q14503T
+2959567	2959652	mobile_element
+			mobile_element_type	retrotransposon
+			rpt_family	Putative Ty Long Terminal Repeat
+
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~/Downloads[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~/Downloads[00m$ cd
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ c[Kexit
+[?2004lexit
+
+Script done on 2024-08-01 14:01:33+05:30 [COMMAND_EXIT_CODE="0"]

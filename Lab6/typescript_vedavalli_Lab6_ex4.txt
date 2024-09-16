@@ -1,0 +1,173 @@
+Script started on 2024-08-12 15:40:51+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="29"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ vi resume_JS.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;29r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[29;1H"resume_JS.txt" 27 lines, 817 bytes[1;1HName: Jane Smith
+Email: jane.smith@email.com
+Phone: (123) 456-7890
+
+Objective:
+Dedicated software engineer with a passion for creating efficient and innovative solutions. Seeking opportunities to conn[7;1Htribute my skills and experience to a dynamic team.
+
+Experience:
+Software Developer|XYZ Tech Solutions
+-Led a team of developers in designing and implementing a customer relationship management system.
+-Collaborated with cross-functional teams to deliver high-quality software within tight deadlines.
+
+Education:
+Bachelor of Science in Computer Science | University of ABC
+-Relevant coursework: Data Structures,Algorithms, Software Engineering
+
+Skills:
+-Programming languages: Python,Java, C++
+_Web development: HTML, CSSS, Javascript
+-Version Control: Git
+
+C
+C
+-Ve
+
+web development: HTML
+-Web development:HTML,CSS,[1;1H[?25h[?4m[?25l[29;1H[K[29;1H:[?25hwq![?25l[?2004l[>4;m"resume_JS.txt" 27 lines, 817 bytes written[23;2t[23;1t
+[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ grep software resume_JS.txt 
+[?2004lDedicated [01;31m[Ksoftware[m[K engineer with a passion for creating efficient and innovative solutions. Seeking opportunities to contribute my skills and experience to a dynamic team.
+-Collaborated with cross-functional teams to deliver high-quality [01;31m[Ksoftware[m[K within tight deadlines.
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ grep -i software resume_JS.txt
+[?2004lDedicated [01;31m[Ksoftware[m[K engineer with a passion for creating efficient and innovative solutions. Seeking opportunities to contribute my skills and experience to a dynamic team.
+[01;31m[KSoftware[m[K Developer|XYZ Tech Solutions
+-Collaborated with cross-functional teams to deliver high-quality [01;31m[Ksoftware[m[K within tight deadlines.
+-Relevant coursework: Data Structures,Algorithms, [01;31m[KSoftware[m[K Engineering
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ grep -i jane resume_Js[KS.txt
+[?2004lName: [01;31m[KJane[m[K Smith
+Email: [01;31m[Kjane[m[K.smith@email.com
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [7m grep -o jane resume_JS.txt[27m grep -o jane resume_JS.txt
+[?2004l[01;31m[Kjane[m[K
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [7m grep -o jane resume_JS.txt[27m grep -o jane resume_JS.txt[1@i
+[?2004l[01;31m[KJane[m[K
+[01;31m[Kjane[m[K
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [7mgrep -n Java resume_JS.txt[27mgrep -n Java resume_JS.txt
+[?2004l[32m[K18[m[K[36m[K:[m[K-Programming languages: Python,[01;31m[KJava[m[K, C++
+[32m[K19[m[K[36m[K:[m[K_Web development: HTML, CSSS, [01;31m[KJava[m[Kscript
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sed 's/[K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sed 's/XYZ Tech Solutions/ABC Soft ware/g' resume_JS.txt
+[?2004lName: Jane Smith
+Email: jane.smith@email.com
+Phone: (123) 456-7890
+
+Objective:
+Dedicated software engineer with a passion for creating efficient and innovative solutions. Seeking opportunities to contribute my skills and experience to a dynamic team.
+
+Experience:
+Software Developer|ABC Software
+-Led a team of developers in designing and implementing a customer relationship management system.
+-Collaborated with cross-functional teams to deliver high-quality software within tight deadlines.
+
+Education:
+Bachelor of Science in Computer Science | University of ABC
+-Relevant coursework: Data Structures,Algorithms, Software Engineering
+
+Skills:
+-Programming languages: Python,Java, C++
+_Web development: HTML, CSSS, Javascript
+-Version Control: Git
+
+C
+C
+-Ve
+
+web development: HTML 
+-Web development:HTML,CSS, 
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sed -i 's/XYZ[K[K[K[K[K[K[K[K[K[K[K[K[Kcat resume_JS.txt
+[?2004lName: Jane Smith
+Email: jane.smith@email.com
+Phone: (123) 456-7890
+
+Objective:
+Dedicated software engineer with a passion for creating efficient and innovative solutions. Seeking opportunities to contribute my skills and experience to a dynamic team.
+
+Experience:
+Software Developer|XYZ Tech Solutions
+-Led a team of developers in designing and implementing a customer relationship management system.
+-Collaborated with cross-functional teams to deliver high-quality software within tight deadlines.
+
+Education:
+Bachelor of Science in Computer Science | University of ABC
+-Relevant coursework: Data Structures,Algorithms, Software Engineering
+
+Skills:
+-Programming languages: Python,Java, C++
+_Web development: HTML, CSSS, Javascript
+-Version Control: Git
+
+C
+C
+-Ve
+
+web development: HTML 
+-Web development:HTML,CSS, 
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sed -i 's/XYZ Tech Solutiond[Ks/ABC S olutiond[Ks/g' resume_JS.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat resume_JS.txt 
+[?2004lName: Jane Smith
+Email: jane.smith@email.com
+Phone: (123) 456-7890
+
+Objective:
+Dedicated software engineer with a passion for creating efficient and innovative solutions. Seeking opportunities to contribute my skills and experience to a dynamic team.
+
+Experience:
+Software Developer|ABC Solutions
+-Led a team of developers in designing and implementing a customer relationship management system.
+-Collaborated with cross-functional teams to deliver high-quality software within tight deadlines.
+
+Education:
+Bachelor of Science in Computer Science | University of ABC
+-Relevant coursework: Data Structures,Algorithms, Software Engineering
+
+Skills:
+-Programming languages: Python,Java, C++
+_Web development: HTML, CSSS, Javascript
+-Version Control: Git
+
+C
+C
+-Ve
+
+web development: HTML 
+-Web development:HTML,CSS, 
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sed '/Data/d' resume_JS.txt > outp ut.txt[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[Kresu me_mod_js.txt
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ cat tes[K[K[Kresume_mod_js.txt
+[?2004lName: Jane Smith
+Email: jane.smith@email.com
+Phone: (123) 456-7890
+
+Objective:
+Dedicated software engineer with a passion for creating efficient and innovative solutions. Seeking opportunities to contribute my skills and experience to a dynamic team.
+
+Experience:
+Software Developer|ABC Solutions
+-Led a team of developers in designing and implementing a customer relationship management system.
+-Collaborated with cross-functional teams to deliver high-quality software within tight deadlines.
+
+Education:
+Bachelor of Science in Computer Science | University of ABC
+
+Skills:
+-Programming languages: Python,Java, C++
+_Web development: HTML, CSSS, Javascript
+-Version Control: Git
+
+C
+C
+-Ve
+
+web development: HTML 
+-Web development:HTML,CSS, 
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ sed -n '5,8p' resume_mod_js.txt
+[?2004lObjective:
+Dedicated software engineer with a passion for creating efficient and innovative solutions. Seeking opportunities to contribute my skills and experience to a dynamic team.
+
+Experience:
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ [K]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ grep -c [Ki jane resume_JS.txt
+[?2004l2
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-12 15:54:36+05:30 [COMMAND_EXIT_CODE="0"]

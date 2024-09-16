@@ -1,0 +1,14 @@
+Script started on 2024-08-05 15:04:44+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="27"]
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ unset $MY_TXT
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ echo$[K $My[KY_TXT
+[?2004lHello, World!
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ us[K[Kunset $MYT[K_TXT
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ E[Krcho $MY_TXT[1@E[1P[1P[1P[1P $MY_TXT[1P$MY_TXT[1PMY_TXT[1PY_TXT[1P_TXT[1PTXT[1PXT[1PT[K[Kecho $MY_TXT
+[?2004lHello, World!
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ unset MY_TXT
+[?2004l[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ E[Kecho $MY_TXT
+[?2004l
+[?2004h]0;ibab@IBAB-MScBDB02-Comp013: ~[01;32mibab@IBAB-MScBDB02-Comp013[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-08-05 15:07:38+05:30 [COMMAND_EXIT_CODE="0"]
